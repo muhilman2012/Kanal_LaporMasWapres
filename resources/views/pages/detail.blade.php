@@ -72,16 +72,11 @@
                 <p class="font-normal text-xs sm:text-sm text-primary">Pengadu dapat meninggalkan ruangan dumas lalu kembali ke lobby untuk menukar ID Tamu dengan kartu identitas, pengadu dapat mengecek status aduan pada akun lapor miliknya sesuai nomor registrasi yang diberi</p>
             </div>
         </div>
-        
-        
     </div>
-    
     <!-- Tambah disini untuk button Syarat dan Ketentuan, lalu isi hrefnya menjadi href={{ route ('syarat') }} -->
-    <div class="hover:cursor-pointer group px-4 py-3 mb-[64px] w-full bg-white transform hover:scale-105 transition duration-300 hover:shadow-custom hover:bg-gradient-to-r from-white to-secondary border-primary hover:border-secondary border rounded-lg items-center">
-            <p class="font-bold text-sm sm:text-sm text-primary text-center">Lihat Syarat dan Ketentuan</p>
-                
-    </div>
-    
+    <a href="{{ route ('syarat') }}" class="hover:cursor-pointer group px-4 py-3 mb-[64px] w-full bg-white transform hover:scale-105 transition duration-300 hover:shadow-custom hover:bg-gradient-to-r from-white to-secondary border-primary hover:border-secondary border rounded-lg items-center">
+        <p class="font-bold text-sm sm:text-sm text-primary text-center">Lihat Syarat dan Ketentuan</p>
+    </a>
 </div>
 @endsection
 

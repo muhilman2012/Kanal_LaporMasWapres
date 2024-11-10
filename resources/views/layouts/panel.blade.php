@@ -2,7 +2,7 @@
 <html lang="id" class="scroll-smooth">
 
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <meta name="viewport" content="width=devide-width, initial-scale=1.0" />
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.24/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -12,12 +12,12 @@
     <meta name="keywords" content="Lapor Mas Wapres, pengaduan masyarakat, kanal pengaduan, SP4N Lapor, tatap muka, korespondensi, WhatsApp, lapor wapres">
     <meta name="author" content="IT SETWAPRES">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="{{asset('/assets/LaporMasWapres.webp')}}" type="image/svg">
+    <link rel="icon" href="{{asset('/assets/LaporMasWapres.png')}}" type="image/png">
     @yield('head')
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- Open Graph Meta Tags -->
     <meta property="og:description" content="Lapor Mas Wapres! adalah kanal pengaduan masyarakat untuk menyampaikan aspirasi, keluhan, dan saran melalui tatap muka, SP4N Lapor, surat korespondensi, dan WhatsApp.">
-    <meta property="og:image" content="https://lapormaswapres.id/assets/LaporMasWapres.webp">
+    <meta property="og:image" content="https://lapormaswapres.id/assets/LaporMasWapres.png">
     <meta property="og:url" content="https://lapormaswapres.id/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Lapor Mas Wapres!">
@@ -73,7 +73,7 @@
             <div class="flex flex-col py-2 w-full items-center">
                 <h3 class="font-bold text-sm sm:text-base text-primary text-center">Butuh Bantuan?</h3>
             </div>
-            <a href="https://wa.me/6281117042207/?text=Halo" target="_blank" class="w-full bg-gradient-to-r from-primary to-secondary text-white text-center font-semibold text-sm py-3 rounded-lg transform hover:scale-105 transition duration-300 hover:shadow-custom">Hubungi Layanan Pelanggan</a>
+            <a href="https://wa.me/6281117042207/?text=Halo" target="_blank" class="w-full bg-gradient-to-r from-primary to-secondary text-white text-center font-semibold text-sm py-3 rounded-lg transform hover:scale-105 transition duration-300 hover:shadow-custom">Hubungi Layanan Pengaduan</a>
             <div class="flex gap-x-4 my-3">
                 <a href="https://wapresri.go.id/" target="_blank" alt="Website Setwapres">
                     <svg class="hover:text-primary text-secondary transform transition duration-300" width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" >
