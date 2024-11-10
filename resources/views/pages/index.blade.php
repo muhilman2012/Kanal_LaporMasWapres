@@ -2,6 +2,7 @@
 
 @section('head')
     <title>Lapor Mas Wapres! - Kanal Pengaduan Masyarakat</title>
+    <meta property="og:title" content="Lapor Mas Wapres! - Kanal Pengaduan Masyarakat">
 @endsection
 
 @section('pages')

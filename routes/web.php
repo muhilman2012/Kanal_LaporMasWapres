@@ -16,4 +16,5 @@ use App\Http\Controllers\pages\indexController;
 */
 
 Route::get('/', [indexController::class, 'index'])->name('index');
-Route::get('/tatapmuka', [indexController::class, 'detail'])->name('detail');
+Route::get('/tatap-muka', [indexController::class, 'detail'])->name('detail');
+Route::get('/syarat-ketentuan', [indexController::class, 'syarat'])->name('syarat');

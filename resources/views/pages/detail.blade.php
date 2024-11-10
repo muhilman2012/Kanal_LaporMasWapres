@@ -2,6 +2,7 @@
 
 @section('head')
     <title>Lapor Mas Wapres! - Detail Pengaduan Tatap Muka</title>
+    <meta property="og:title" content="Lapor Mas Wapres! - Detail Pengaduan Tatap Muka">
 @endsection
 
 @section('pages')
@@ -71,6 +72,7 @@
                 <p class="font-normal text-xs sm:text-sm text-primary">Pengadu dapat meninggalkan ruangan dumas lalu kembali ke lobby untuk menukar ID Tamu dengan kartu identitas, pengadu dapat mengecek status aduan pada akun lapor miliknya sesuai nomor registrasi yang diberi</p>
             </div>
         </div>
+        <!-- Tambah disini untuk button Syarat dan Ketentuan, lalu isi hrefnya menjadi href={{ route ('syarat') }} -->
     </div>
 </div>
 @endsection

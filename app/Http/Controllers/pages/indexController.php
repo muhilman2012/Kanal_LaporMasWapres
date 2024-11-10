@@ -14,4 +14,8 @@ class indexController extends Controller
     public function detail(){
         return view('pages.detail');
     }
+
+    public function syarat(){
+        return view('pages.syarat');
+    }
 }

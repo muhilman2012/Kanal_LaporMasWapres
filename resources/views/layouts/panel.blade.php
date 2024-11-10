@@ -16,7 +16,6 @@
     @yield('head')
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Lapor Mas Wapres! - Kanal Pengaduan Masyarakat">
     <meta property="og:description" content="Lapor Mas Wapres! adalah kanal pengaduan masyarakat untuk menyampaikan aspirasi, keluhan, dan saran melalui tatap muka, SP4N Lapor, surat korespondensi, dan WhatsApp.">
     <meta property="og:image" content="https://lapormaswapres.id/assets/LaporMasWapres.webp">
     <meta property="og:url" content="https://lapormaswapres.id/">
