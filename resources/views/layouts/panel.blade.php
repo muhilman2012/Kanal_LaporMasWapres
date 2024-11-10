@@ -58,7 +58,7 @@
     </div>
 
     <!-- TODO Wrapper: Setinggan breakpoint untuk responsive -->
-    <div id="content" class="flex flex-col h-dvh max-w-sm p-6 gap-y-7 sm:max-w-2xl lg:max-w-5xl xl:max-w-7xl mx-auto bg-[url('/assets/LaporMasWapres-opacity.webp')] bg-no-repeat bg-center bg-contain bg-fixed sm:bg-[length:600px] items-center">
+    <div id="content" class="flex flex-col h-full max-w-sm p-6 gap-y-7 sm:max-w-2xl lg:max-w-5xl xl:max-w-7xl mx-auto bg-[url('/assets/LaporMasWapres-opacity.webp')] bg-no-repeat bg-center bg-contain bg-fixed sm:bg-[length:600px] items-center">
         <!-- Navbar -->
         <div class="flex flex-row justify-center items-center">
             <!-- Logo -->
