@@ -3,6 +3,22 @@
 @section('head')
     <title>Lapor Mas Wapres! - Detail Pengaduan Tatap Muka</title>
     <meta property="og:title" content="Lapor Mas Wapres! - Detail Pengaduan Tatap Muka">
+    <style>
+        ol {
+            margin-left: 20px;
+        }
+        ol li {
+            margin-bottom: 8px;
+            text-indent: -20px;
+            padding-left: 20px;
+        }
+        ul {
+            margin-left: 40px;
+        }
+        ul li {
+            margin-bottom: 5px;
+        }
+    </style>
 @endsection
 
 @section('pages')
@@ -132,24 +148,51 @@
 <!-- Modal untuk Syarat dan Ketentuan -->
 <div id="modal" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 hidden z-50">
     <div class="bg-white p-6 rounded-lg w-full max-w-md max-h-[90vh] overflow-y-auto">
-        <h2 class="text-xl font-bold mb-4 text-center">Syarat dan Ketentuan</h2>
-        <p class="text-sm text-gray-700 mb-4">
-            <!-- Teks syarat dan ketentuan di sini -->
-            1. Jam Layanan Senin - Kamis pukul 08.00 s.d 14.00 (Pukul 12.00 s.d 13.00 ISHOMA) sedangkan Hari Jumat pukul 08.00 s.d 14.00 (Pukul 11.00 s.d 13.00 ISHOMA) <br><br>
-            2. Pelapor yang akan mendapatkan pelayanan pengaduan adalah yang telah melakukan registrasi dan mendapatkan nomor antrian pengaduan secara daring. Kuota 60/hari. <br><br>
-            3. Pelapor Berpakaian Bebas Rapi, Menggunakan Alas Kaki Tertutup. <br><br>
-            4. Pelapor yang akan mendapatkan pelayanan pengaduan adalah yang telah melakukan registrasi dan mendapatkan nomor antrian pengaduan secara daring. <br><br>
-            5. Pelapor Membawa KTP/SIM Asli dan Merupakan Orang yang Langsung Mengalami Kejadian yang Diadukan. Apabila karena Alasan Keterbatasan Pengadu bukan yang Mengalami Kejadian Langsung, Maka Harus Disertai dengan Surat Kuasa Bermaterai. <br><br>
-            6. Pelapor Membawa Bukti Permulaan dan/atau Bukti Pendukung yang Relevan. <br><br>
-            7. Substansi Aduan Tidak Sedang atau Telah menjadi Objek Peradilan. <br><br>
-            8. Substansi aduan belum pernah disampaikan oleh pelapor kepada Wakil Presiden. <br><br>
-            9. Petugas akan memverifikasi dokumen. Apabila dokumen tidak lengkap, petugas akan meminta pelapor untuk mengirimkan kelengkapan dokumen melalui email dalam kurun waktu 10 hari. Pelaporan tidak diproses apabila pelapor tidak melengkapi dokumen tersebut dalam 10 hari. <br><br>
-            10. Pelapor wajib menyampaikan nomor kontak atau e-mail yang dapat dihubungi. <br><br>
-            11. Pelapor Wajib mentaati dan menghormati tata tertib yang berlaku, menjaga etika dan kesopanan selama berada di lingkungan Kementerian Sekretariat Negara. <br><br>
-            12. Pelapor dilarang mengambil gambar/video dan membuat konten selama proses pelaporan. <br><br>
-            <br>
-            Pastikan Anda sudah melakukan registrasi online dan membawa bukti registrasi saat datang.
-        </p>
+        <h2 class="text-xl font-bold mb-4 text-center">Tata Tertib Pelaksanaan Lapor Mas Wapres</h2>
+        <div class="text-md text-dark-700 mb-4">
+            <li><strong>KETENTUAN UMUM</strong>
+                <ol>
+                    <li>1. Pelayanan program “Lapor Mas Wapres” diselenggarakan di Sekretariat Wakil Presiden, Jalan Kebon Sirih 14 Jakarta Pusat, pada:
+                        <ul>
+                            <li>a. Senin s.d. Kamis pukul 08.00 s.d. 14.00 WIB (Ishoma 12.00 s.d. 13.00)</li>
+                            <li>b. Jumat pukul 08.00 s.d. 14.00 (Ishoma 11.00 s.d.13.00)</li>
+                        </ul>
+                    </li>
+                    <li>2. Pelapor memakai pakaian bebas rapi, menggunakan alas kaki tertutup.</li>
+                    <li>3. Pelapor wajib membawa kartu identitas diri (KTP/SIM).</li>
+                    <li>4. Jumlah pengaduan yang dilayani berjumlah maksimal 60 orang.</li>
+                </ol>
+            </li><br>
+
+            <li><strong>KETENTUAN PENGADUAN</strong>
+                <ol>
+                    <li>1. Pelapor adalah orang yang langsung mengalami kejadian. Apabila pelapor bukan yang mengalami kejadian langsung maka pelapor harus membawa surat kuasa bermaterai dari pihak yang diwakili.</li>
+                    <li>2. Substansi aduan tidak sedang atau telah menjadi objek peradilan.</li>
+                    <li>3. Substansi aduan belum pernah disampaikan oleh pelapor kepada Wakil Presiden.</li>
+                    <li>4. Pelapor wajib membawa dokumen permulaan dan dokumen pendukung pengaduan yang lengkap dan relevan.</li>
+                    <li>5. Petugas akan memverifikasi dokumen. Apabila dokumen tidak lengkap, petugas akan meminta pelapor untuk mengirimkan kelengkapan dokumen melalui email dalam kurun waktu 10 hari. Pelaporan tidak diproses apabila pelapor tidak melengkapi dokumen tersebut dalam 10 hari.</li>
+                    <li>6. Pelapor wajib menyampaikan nomor kontak atau e-mail yang dapat dihubungi.</li>
+                </ol>
+            </li><br>
+
+            <li><strong>REGISTRASI DAN PROSES PENGADUAN</strong>
+                <ol>
+                    <li>1. Pelapor melakukan registrasi secara daring melalui <a href="https://lapormaswapres.id">https://lapormaswapres.id</a></li>
+                    <li>2. Pelapor yang telah berhasil melakukan registrasi hadir sesuai tanggal yang dipilih.</li>
+                    <li>3. Pelapor menunggu di tempat yang telah disediakan.</li>
+                    <li>4. Petugas melakukan verifikasi dan memberikan nomor urut pengaduan.</li>
+                    <li>5. Petugas akan mempersilahkan pelapor ke Ruang Pelaporan Masyarakat berdasarkan nomor urut.</li>
+                </ol>
+            </li><br>
+
+            <li><strong>HAL-HAL LAIN</strong>
+                <ol>
+                    <li>1. Pelapor menghormati tata tertib yang berlaku, menjaga etika dan kesopanan selama berada di lingkungan Kementerian Sekretariat Negara.</li>
+                    <li>2. Pelapor dilarang mengambil gambar/video dan membuat konten selama proses pelaporan.</li>
+                    <li>3. Pelapor harus mentaati seluruh ketentuan dalam Tata Tertib Lapor Mas Wapres dan aturan tambahan yang ditetapkan di kemudian hari.</li>
+                </ol>
+            </li>
+        </div>
 
         <!-- Checkbox untuk persetujuan syarat dan ketentuan -->
         <div class="flex items-center mb-4">
