@@ -148,14 +148,14 @@
 <!-- Modal untuk Syarat dan Ketentuan -->
 <div id="modal" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 hidden z-50">
     <div class="bg-white p-6 rounded-lg w-full max-w-md max-h-[90vh] overflow-y-auto">
-        <h2 class="text-xl font-bold mb-4 text-center">Tata Tertib Pelaksanaan Lapor Mas Wapres</h2>
+        <h2 class="text-xl font-bold mb-4 text-center">Tata Tertib Pelaksanaan Pelayanan Program Lapor Mas Wapres!</h2>
         <div class="text-md text-dark-700 mb-4">
             <li><strong>KETENTUAN UMUM</strong>
                 <ol>
-                    <li>1. Pelayanan program “Lapor Mas Wapres” diselenggarakan di Sekretariat Wakil Presiden, Jalan Kebon Sirih 14 Jakarta Pusat, pada:
+                    <li>1. Pelayanan program <strong>"Lapor Mas Wapres!"</strong> diselenggarakan di Sekretariat Wakil Presiden, Jalan Kebon Sirih 14 Jakarta Pusat, pada:
                         <ul>
-                            <li>a. Senin s.d. Kamis pukul 08.00 s.d. 14.00 WIB (Ishoma 12.00 s.d. 13.00)</li>
-                            <li>b. Jumat pukul 08.00 s.d. 14.00 (Ishoma 11.00 s.d.13.00)</li>
+                            <li>a. Senin s.d. Kamis pukul 08.00 s.d. 14.00 WIB (Ishoma 12.00 s.d. 13.00 WIB)</li>
+                            <li>b. Jumat pukul 08.00 s.d. 14.00 WIB (Ishoma 11.00 s.d.13.00 WIB)</li>
                         </ul>
                     </li>
                     <li>2. Pelapor memakai pakaian bebas rapi, menggunakan alas kaki tertutup.</li>
