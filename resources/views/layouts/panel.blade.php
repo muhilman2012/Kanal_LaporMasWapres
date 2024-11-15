@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=devide-width, initial-scale=1.0" />
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.24/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -67,7 +66,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- Preloader -->
     <div id="preloader" role="status"
         class="flex z-30 h-screen w-full bg-white-25 items-center justify-center animate-pulse">
-        <img class="h-[36px] sm:h-[64px]" src="{{asset('/assets/LaporMasWapres.webp')}}" alt="Logo Lapor Mas Wapres!" srcset="Logo Lapor Mas Wapres!">
+        <img class="h-[36px] sm:h-[64px]" src="{{asset('/assets/LaporMasWapres.webp')}}" alt="Logo Lapor Mas Wapres!">
         <span class="sr-only">Memuat Halaman</span>
     </div>
 
@@ -76,7 +75,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- Navbar -->
         <div class="flex flex-row justify-center items-center">
             <!-- Logo -->
-            <a href="{{ route ('index') }}"><img class="h-[60px] sm:h-[72px]" src="{{asset('/assets/LaporMasWapres.webp')}}" alt="Logo Lapor Mas Wapres!" srcset="Logo Lapor Mas Wapres!"></a>
+            <a href="{{ route ('index') }}"><img class="h-[60px] sm:h-[72px]" src="{{asset('/assets/LaporMasWapres.webp')}}" alt="Logo Lapor Mas Wapres!"></a>
         </div>
 
         @yield('pages')
