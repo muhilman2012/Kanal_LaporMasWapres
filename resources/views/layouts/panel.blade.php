@@ -82,11 +82,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         @yield('pages')
 
         <!-- Footer -->
-        <div class="flex flex-col gap-1 w-full max-w-[440px] items-center pb-7">
-            <div class="flex flex-col py-2 w-full items-center">
+        <div class="flex flex-col gap-1 w-full max-w-[460px] items-center pb-7">
+            <!-- <div class="flex flex-col py-2 w-full items-center">
                 <h3 class="font-bold text-sm sm:text-base text-primary text-center">Butuh Bantuan?</h3>
             </div>
-            <a href="https://wa.me/6281117042207/?text=Halo" target="_blank" class="w-full bg-gradient-to-r from-primary to-secondary text-white text-center font-semibold text-sm py-3 rounded-lg transform hover:scale-105 transition duration-300 hover:shadow-custom">Hubungi Layanan Pengaduan</a>
+            <a href="https://wa.me/6281117042204/?text=Halo" target="_blank" class="w-full bg-gradient-to-r from-primary to-secondary text-white text-center font-semibold text-sm py-3 rounded-lg transform hover:scale-105 transition duration-300 hover:shadow-custom">Hubungi Layanan Pengaduan</a> -->
             <div class="flex gap-x-4 my-3">
                 <a href="https://wapresri.go.id/" target="_blank" alt="Website Setwapres">
                     <svg class="hover:text-primary text-secondary transform transition duration-300" width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" >
@@ -118,10 +118,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </svg>
                 </a>
             </div>
-            <span class="text-xs sm:text-sm text-quote text-center lg:text-left">Copyright &copy; <span id="currentYear"></span> Sekretariat Wakil Presiden | All Rights Reserved.</span>
+            <span class="text-xs sm:text-sm text-quote text-center">Copyright &copy; <span id="currentYear"></span> Sekretariat Wakil Presiden | All Rights Reserved.</span>
         </div>
 
         <script src="{{asset('/assets/js/fslightbox.js')}}"></script>
+        @yield('script')
         <script>
             window.addEventListener('load', function () {
                 var preloader = document.getElementById('preloader');

@@ -18,4 +18,8 @@ class indexController extends Controller
     public function syarat(){
         return view('pages.syarat');
     }
+
+    public function registrasi(){
+        return view('pages.registrasi');
+    }
 }
