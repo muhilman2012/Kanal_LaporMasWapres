@@ -19,7 +19,7 @@ class indexController extends Controller
         return view('pages.syarat');
     }
 
-    public function registrasi(){
-        return view('pages.registrasi');
+    public function reservasi(){
+        return view('pages.reservasi');
     }
 }

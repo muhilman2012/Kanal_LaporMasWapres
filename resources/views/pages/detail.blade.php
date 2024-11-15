@@ -125,10 +125,6 @@
         </div>
     </div>
 
-    <!-- Tambah disini untuk button Syarat dan Ketentuan, lalu isi hrefnya menjadi href={{ route ('syarat') }} -->
-    <!-- <a href="{{ route ('syarat') }}" class="hover:cursor-pointer group px-4 py-3 w-full bg-white transform hover:scale-105 transition duration-300 hover:shadow-custom hover:bg-gradient-to-r from-white to-secondary border-primary hover:border-secondary border rounded-lg items-center">
-        <p class="font-bold text-sm sm:text-sm text-primary text-center">Lihat Syarat dan Ketentuan</p>
-    </a> -->
     <a onclick="openModal()" class="w-full bg-gradient-to-r from-primary to-secondary text-white text-center font-semibold text-sm py-3 rounded-lg transform hover:scale-105 transition duration-300 hover:shadow-custom cursor-pointer">
         <p class="font-bold text-sm sm:text-sm text-white text-center">Registrasi Online Disini <br> (kuota online 60 orang / hari)</p>
     </a>
@@ -162,7 +158,7 @@
         </div>
 
         <!-- Tombol Registrasi Sekarang -->
-        <a id="registerButton" href="{{ route('registrasi') }}" class="bg-primary text-white py-2 px-4 rounded-lg text-center w-full block cursor-not-allowed opacity-50 pointer-events-none">
+        <a id="registerButton" href="{{ route('reservasi') }}" class="bg-primary text-white py-2 px-4 rounded-lg text-center w-full block cursor-not-allowed opacity-50 pointer-events-none">
             Registrasi Sekarang
         </a>
 
