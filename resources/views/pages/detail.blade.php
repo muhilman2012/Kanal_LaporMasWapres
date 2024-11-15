@@ -13,7 +13,7 @@
         <p class="font-normal italic text-base text-quote">Panduan Langkah Demi Langkah untuk Pengaduan Tatap Muka</p>
     </div>
 
-    <p class="text-sm sm:text-base text-red font-bold text-center max-w-screen-md">PERHATIAN !! kuota harian hanya 50 orang</p>
+    <p class="text-sm sm:text-base text-red font-bold text-center max-w-screen-md">PERHATIAN !! kuota harian hanya 60 orang</p>
 
     <div class="grid gap-y-4 sm:gap-y-5 w-full sm:grid-cols-1 md:grid-cols-2 gap-x-5 my-5 sm:mt-[64px] max-w-[968px]">
         <div class="hover:cursor-pointer group flex gap-x-4 px-4 py-3 w-full bg-white transform hover:scale-105 transition duration-300 hover:shadow-custom hover:bg-gradient-to-r from-white to-secondary border-primary hover:border-secondary border rounded-lg items-center">
@@ -74,8 +74,11 @@
         </div>
     </div>
     <!-- Tambah disini untuk button Syarat dan Ketentuan, lalu isi hrefnya menjadi href={{ route ('syarat') }} -->
-    <a href="{{ route ('syarat') }}" class="hover:cursor-pointer group px-4 py-3 mb-[64px] w-full bg-white transform hover:scale-105 transition duration-300 hover:shadow-custom hover:bg-gradient-to-r from-white to-secondary border-primary hover:border-secondary border rounded-lg items-center">
+    <a href="{{ route ('syarat') }}" class="hover:cursor-pointer group px-4 py-3 w-full bg-white transform hover:scale-105 transition duration-300 hover:shadow-custom hover:bg-gradient-to-r from-white to-secondary border-primary hover:border-secondary border rounded-lg items-center">
         <p class="font-bold text-sm sm:text-sm text-primary text-center">Lihat Syarat dan Ketentuan</p>
+    </a>
+    <a href="https://form.jotform.com/243188226197060" target="_blank" class="hover:cursor-pointer group px-4 py-3 mb-[64px] w-full bg-white transform hover:scale-105 transition duration-300 hover:shadow-custom hover:bg-gradient-to-r from-white to-secondary border-primary hover:border-secondary border rounded-lg items-center">
+        <p class="font-bold text-sm sm:text-sm text-primary text-center">Registrasi Online Disini (kuota online 60 orang)</p>
     </a>
 </div>
 @endsection

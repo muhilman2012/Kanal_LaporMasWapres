@@ -21,6 +21,7 @@
     <meta property="og:url" content="https://lapormaswapres.id/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Lapor Mas Wapres!">
+    <meta name="google-site-verification" content="UeEptenQ45PrAi9OsM8OJS16SD_SgD5QoQi192rmzvI" />
     <!-- Google Tag Manager -->
     <script>
     (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({
@@ -117,7 +118,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </svg>
                 </a>
             </div>
-            <span class="text-xs sm:text-sm text-quote text-center lg:text-left">Copyright &copy; <span id="currentYear"></span> IT Setwapres | All Rights Reserved.</span>
+            <span class="text-xs sm:text-sm text-quote text-center lg:text-left">Copyright &copy; <span id="currentYear"></span> Sekretariat Wakil Presiden | All Rights Reserved.</span>
         </div>
 
         <script src="{{asset('/assets/js/fslightbox.js')}}"></script>
