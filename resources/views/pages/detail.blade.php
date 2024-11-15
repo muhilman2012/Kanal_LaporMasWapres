@@ -13,17 +13,17 @@
         <p class="font-normal italic text-base text-quote">Panduan Langkah Demi Langkah untuk Pengaduan Tatap Muka</p>
     </div>
 
-    <p class="text-sm sm:text-base text-red font-bold text-center max-w-screen-md">PERHATIAN !! kuota harian hanya 60 orang</p>
+    <!-- <p class="text-sm sm:text-base text-red font-bold text-center max-w-screen-md">PERHATIAN !! kuota harian hanya 60 orang</p> -->
 
     <div class="grid gap-y-4 sm:gap-y-5 w-full sm:grid-cols-1 md:grid-cols-2 gap-x-5 my-5 sm:mt-[64px] max-w-[968px]">
         <!-- Langkah 1: Registrasi Online -->
-        <a href="https://form.jotform.com/243188226197060" target="_blank" class="hover:cursor-pointer group flex gap-x-4 px-4 py-3 w-full bg-white transform hover:scale-105 transition duration-300 hover:shadow-custom hover:bg-gradient-to-r from-white to-secondary border-primary hover:border-secondary border rounded-lg items-center">
+        <div class="hover:cursor-pointer group flex gap-x-4 px-4 py-3 w-full bg-white transform hover:scale-105 transition duration-300 hover:shadow-custom hover:bg-gradient-to-r from-white to-secondary border-primary hover:border-secondary border rounded-lg items-center">
             <div class="flex items-center justify-center w-[32px] h-[28px] rounded-full bg-secondary text-primary font-bold text-base">1</div>
             <div class="flex flex-col w-full">
                 <p class="font-bold text-sm sm:text-base text-primary">Registrasi Online</p>
-                <p class="font-normal text-xs sm:text-sm text-primary">Pelapor melakukan registrasi online sebelum datang ke lokasi. klik disini untuk melakukan registrasi</p>
+                <p class="font-normal text-xs sm:text-sm text-primary">Pelapor melakukan registrasi online sebelum datang ke lokasi.</p>
             </div>
-        </a>
+        </div>
 
         <!-- Langkah 2: Datang -->
         <div class="hover:cursor-pointer group flex gap-x-4 px-4 py-3 w-full bg-white transform hover:scale-105 transition duration-300 hover:shadow-custom hover:bg-gradient-to-r from-white to-secondary border-primary hover:border-secondary border rounded-lg items-center">
