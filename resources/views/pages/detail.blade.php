@@ -189,7 +189,7 @@
                 <ol>
                     <li>1. Pelapor menghormati tata tertib yang berlaku, menjaga etika dan kesopanan selama berada di lingkungan Kementerian Sekretariat Negara.</li>
                     <li>2. Pelapor dilarang mengambil gambar/video dan membuat konten selama proses pelaporan.</li>
-                    <li>3. Pelapor harus mentaati seluruh ketentuan dalam Tata Tertib Lapor Mas Wapres dan aturan tambahan yang ditetapkan di kemudian hari.</li>
+                    <li>3. Pelapor harus mentaati seluruh ketentuan dalam Tata Tertib Lapor Mas Wapres dan ketentuan lain yang ditetapkan di kemudian hari.</li>
                 </ol>
             </li>
         </div>
@@ -197,7 +197,7 @@
         <!-- Checkbox untuk persetujuan syarat dan ketentuan -->
         <div class="flex items-center mb-4">
             <input type="checkbox" id="agreeCheckbox" class="mr-2" onchange="toggleRegisterButton()">
-            <label for="agreeCheckbox" class="text-sm">Saya telah membaca Syarat dan Ketentuan yang berlaku</label>
+            <label for="agreeCheckbox" class="text-sm">Saya telah membaca dan menyetujui seluruh Syarat dan Ketentuan yang berlaku</label>
         </div>
 
         <!-- Tombol Registrasi Sekarang -->
