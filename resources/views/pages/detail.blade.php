@@ -152,7 +152,7 @@
         <div class="text-md text-dark-700 mb-4">
             <li><strong>KETENTUAN UMUM</strong>
                 <ol>
-                    <li>1. Pelayanan program <strong>"Lapor Mas Wapres!"</strong> diselenggarakan di Sekretariat Wakil Presiden, Jalan Kebon Sirih 14 Jakarta Pusat, pada:
+                    <li>1. Pelayanan program <strong>"Lapor Mas Wapres!"</strong> diselenggarakan di Kanotr Sekretariat Wakil Presiden, Jalan Kebon Sirih 14 Jakarta Pusat, pada :
                         <ul>
                             <li>a. Senin s.d. Kamis pukul 08.00 s.d. 14.00 WIB (istirahat 12.00 s.d. 13.00 WIB)</li>
                             <li>b. Jumat pukul 08.00 s.d. 14.30 WIB (istirahat 11.00 s.d.13.30 WIB)</li>
@@ -170,7 +170,7 @@
                     <li>2. Substansi aduan tidak sedang atau telah menjadi objek peradilan.</li>
                     <li>3. Substansi aduan belum pernah disampaikan oleh pelapor kepada Wakil Presiden.</li>
                     <li>4. Pelapor wajib membawa dokumen pendukung pengaduan yang lengkap dan relevan.</li>
-                    <li>5. Petugas akan memverifikasi dokumen pengaduan. Apabila dokumen tidak lengkap, petugas akan meminta pelapor untuk mengirimkan kelengkapan dokumen melalui e-mail surel (lapormaswapres.set.wapresri.go.id) dalam kurun waktu 10 hari. Pelaporan tidak diproses apabila pelapor tidak melengkapi dokumen tersebut dalam 10 hari.</li>
+                    <li>5. Petugas akan memverifikasi dokumen pengaduan. Apabila dokumen tidak lengkap, petugas akan meminta pelapor untuk mengirimkan kelengkapan dokumen melalui surel (lapormaswapres.set.wapresri.go.id) dalam kurun waktu 10 hari. Pelaporan tidak diproses apabila pelapor tidak melengkapi dokumen tersebut dalam 10 hari.</li>
                     <li>6. Pelapor wajib menyampaikan nomor kontak atau e-mail yang dapat dihubungi.</li>
                 </ol>
             </li><br>
