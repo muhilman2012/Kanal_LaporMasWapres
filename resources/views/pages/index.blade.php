@@ -26,7 +26,7 @@
             <img class="w-5 h-5 sm:w-6 sm:h-6 group-hover:w-6 group-hover:h-6 sm:group-hover:w-7 sm:group-hover:h-7 transition-all duration-300" src="{{ url ('/assets/lapor.webp') }}" alt="Logo Lapor!">
             <div class="flex flex-col">
                 <p class="font-bold text-sm sm:text-base text-primary">SP4N Lapor!</p>
-                <p class="font-normal text-xs sm:text-sm text-primary">Laporkan online melalui SP4N Lapor.</p>
+                <p class="font-normal text-xs sm:text-sm text-primary">Laporkan online melalui lapormaswapres.lapor.go.id.</p>
             </div>
         </a>
 
