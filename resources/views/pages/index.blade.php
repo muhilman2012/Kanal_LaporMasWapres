@@ -9,8 +9,8 @@
 <!-- Content -->
 <div class="flex flex-col justify-center items-center gap-y-5">
     <div class="flex flex-col gap-y-1 items-center justify-center text-center sm:mt-10">
-        <h2 class="font-bold text-xl sm:text-2xl text-primary">Kanal Awal Pengaduan Masyarakat</h2>
-        <p class="font-normal italic text-base text-quote">Sampaikan Keluhan Anda dengan Mudah</p>
+        <h2 class="font-bold text-xl sm:text-2xl text-primary">Sampaikan Keluhan Anda melalui Kanal berikut ini</h2>
+        <!-- <p class="font-normal italic text-base text-quote"></p> -->
     </div>
 
     <div class="grid gap-y-4 sm:gap-y-5 w-full sm:grid-cols-1 md:grid-cols-2 gap-x-5 my-5 sm:my-[64px] max-w-[968px]">
