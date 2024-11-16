@@ -159,7 +159,7 @@
                         </ul>
                     </li>
                     <li>2. Pelapor memakai pakaian bebas rapi.</li>
-                    <li>3. Pelapor wajib membawa kartu identitas diri (KTP/SIM).</li>
+                    <li>3. Pelapor wajib membawa kartu identitas diri (KTP/Identitas lain yang terdapat NIK).</li>
                     <li>4. Jumlah pengaduan yang dilayani berjumlah maksimal 50 orang.</li>
                 </ol>
             </li><br>
