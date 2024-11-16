@@ -142,7 +142,7 @@
     </div>
 
     <a onclick="openModal()" class="w-full bg-gradient-to-r from-primary to-secondary text-white text-center font-semibold text-sm py-3 rounded-lg transform hover:scale-105 transition duration-300 hover:shadow-custom cursor-pointer">
-        <p class="font-bold text-md sm:text-md text-white text-center">Registrasi Online Disini <br> (kuota online 50 orang / hari)</p>
+        <p class="font-bold text-lg sm:text-lg text-white text-center">Registrasi Online Disini <br> (kuota online 50 orang / hari)</p>
     </a>
 </div>
 <!-- Modal untuk Syarat dan Ketentuan -->
