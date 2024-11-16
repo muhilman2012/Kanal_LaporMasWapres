@@ -197,7 +197,7 @@
         <!-- Checkbox untuk persetujuan syarat dan ketentuan -->
         <div class="flex items-center mb-4">
             <input type="checkbox" id="agreeCheckbox" class="mr-2" onchange="toggleRegisterButton()">
-            <label for="agreeCheckbox" class="text-sm">Saya telah membaca dan menyetujui seluruh Syarat dan Ketentuan yang berlaku</label>
+            <label for="agreeCheckbox" class="text-sm">Setuju, Saya telah membaca seluruh Syarat dan Ketentuan yang berlaku</label>
         </div>
 
         <!-- Tombol Registrasi Sekarang -->
