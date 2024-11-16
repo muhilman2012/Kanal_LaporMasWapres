@@ -17,8 +17,8 @@
         <a href="{{ route ('detail') }}" class="hover:cursor-pointer group flex gap-x-4 px-4 py-3 w-full bg-white transform hover:scale-105 transition duration-300 hover:shadow-custom hover:bg-gradient-to-r from-white to-secondary border-primary hover:border-secondary border rounded-lg items-center">
             <img class="w-5 h-5 sm:w-6 sm:h-6 group-hover:w-6 group-hover:h-6 sm:group-hover:w-7 sm:group-hover:h-7 transition-all duration-300" src="{{ url ('/assets/emoji.webp') }}" alt="Emoji">
             <div class="flex flex-col">
-                <p class="font-bold text-sm sm:text-base text-primary">Tatap Muka</p>
-                <p class="font-normal text-xs sm:text-sm text-primary">Sampaikan langsung di Kantor Sekretariat Wakil Presiden</p>
+                <p class="font-bold text-sm sm:text-base text-primary">Registrasi Online Tatap Muka</p>
+                <p class="font-normal text-xs sm:text-sm text-primary">Sampaikan langsung di Kantor Sekretariat Wakil Presiden Jl. Kebon Sirih No.14</p>
             </div>
         </a>
 
