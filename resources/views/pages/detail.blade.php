@@ -142,7 +142,7 @@
     </div>
 
     <a onclick="openModal()" class="w-full bg-gradient-to-r from-primary to-secondary text-white text-center font-semibold text-sm py-3 rounded-lg transform hover:scale-105 transition duration-300 hover:shadow-custom cursor-pointer">
-        <p class="font-bold text-sm sm:text-sm text-white text-center">Registrasi Online Disini <br> (kuota online 60 orang / hari)</p>
+        <p class="font-bold text-sm sm:text-sm text-white text-center">Registrasi Online Disini <br> (kuota online 50 orang / hari)</p>
     </a>
 </div>
 <!-- Modal untuk Syarat dan Ketentuan -->
@@ -158,9 +158,9 @@
                             <li>b. Jumat pukul 08.00 s.d. 14.00 WIB (Ishoma 11.00 s.d.13.00 WIB)</li>
                         </ul>
                     </li>
-                    <li>2. Pelapor memakai pakaian bebas rapi, menggunakan alas kaki tertutup.</li>
+                    <li>2. Pelapor memakai pakaian bebas rapi, menggunakan alas kaki.</li>
                     <li>3. Pelapor wajib membawa kartu identitas diri (KTP/SIM).</li>
-                    <li>4. Jumlah pengaduan yang dilayani berjumlah maksimal 60 orang.</li>
+                    <li>4. Jumlah pengaduan yang dilayani berjumlah maksimal 50 orang.</li>
                 </ol>
             </li><br>
 
