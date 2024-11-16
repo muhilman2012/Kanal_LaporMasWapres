@@ -181,7 +181,7 @@
                     <li>2. Pelapor yang telah berhasil melakukan registrasi hadir sesuai tanggal yang dipilih.</li>
                     <li>3. Pelapor menunggu di tempat yang telah disediakan.</li>
                     <li>4. Petugas melakukan verifikasi dan memberikan nomor urut pengaduan.</li>
-                    <li>5. Petugas mempersilahkan pelapor ke Ruang Pelaporan Masyarakat berdasarkan nomor urut.</li>
+                    <li>5. Petugas mempersilahkan pelapor ke Ruang Pengaduan Masyarakat berdasarkan nomor urut.</li>
                 </ol>
             </li><br>
 
