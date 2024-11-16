@@ -158,7 +158,7 @@
                             <li>b. Jumat pukul 08.00 s.d. 14.30 WIB (istirahat 11.00 s.d.13.30 WIB)</li>
                         </ul>
                     </li>
-                    <li>2. Pelapor memakai pakaian bebas rapi, menggunakan alas kaki.</li>
+                    <li>2. Pelapor memakai pakaian bebas rapi.</li>
                     <li>3. Pelapor wajib membawa kartu identitas diri (KTP/SIM).</li>
                     <li>4. Jumlah pengaduan yang dilayani berjumlah maksimal 50 orang.</li>
                 </ol>
