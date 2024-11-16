@@ -142,7 +142,7 @@
     </div>
 
     <a onclick="openModal()" class="w-full bg-gradient-to-r from-primary to-secondary text-white text-center font-semibold text-sm py-3 rounded-lg transform hover:scale-105 transition duration-300 hover:shadow-custom cursor-pointer">
-        <p class="font-bold text-sm sm:text-sm text-white text-center">Registrasi Online Disini <br> (kuota online 50 orang / hari)</p>
+        <p class="font-bold text-md sm:text-md text-white text-center">Registrasi Online Disini <br> (kuota online 50 orang / hari)</p>
     </a>
 </div>
 <!-- Modal untuk Syarat dan Ketentuan -->
@@ -181,7 +181,7 @@
                     <li>2. Pelapor yang telah berhasil melakukan registrasi hadir sesuai tanggal yang dipilih.</li>
                     <li>3. Pelapor menunggu di tempat yang telah disediakan.</li>
                     <li>4. Petugas melakukan verifikasi dan memberikan nomor urut pengaduan.</li>
-                    <li>5. Petugas akan mempersilahkan pelapor ke Ruang Pelaporan Masyarakat berdasarkan nomor urut.</li>
+                    <li>5. Petugas mempersilahkan pelapor ke Ruang Pelaporan Masyarakat berdasarkan nomor urut.</li>
                 </ol>
             </li><br>
 
