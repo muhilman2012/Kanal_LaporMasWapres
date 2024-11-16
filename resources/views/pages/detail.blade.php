@@ -46,7 +46,7 @@
             <div class="flex items-center justify-center w-[32px] h-[28px] rounded-full bg-secondary text-primary font-bold text-base">2</div>
             <div class="flex flex-col w-full">
                 <p class="font-bold text-sm sm:text-base text-primary">Pelapor Datang</p>
-                <p class="font-normal text-xs sm:text-sm text-primary">Pelapor datang ke lokasi pengaduan di Kantor Sekretariat Wakil Presiden yang beralamat di Jl. Kebon Sirih No.14, Jakarta Pusat</p>
+                <p class="font-normal text-xs sm:text-sm text-primary">Pelapor datang ke lokasi pengaduan di Kantor Sekretariat Wakil Presiden yang beralamat di Jl. Kebon Sirih No.14 , Jakarta Pusat</p>
             </div>
         </div>
 
@@ -152,7 +152,7 @@
         <div class="text-md text-dark-700 mb-4">
             <li><strong>KETENTUAN UMUM</strong>
                 <ol>
-                    <li>1. Pelayanan program <strong>"Lapor Mas Wapres!"</strong> diselenggarakan di Kantor Sekretariat Wakil Presiden, Jalan Kebon Sirih 14 Jakarta Pusat, pada :
+                    <li>1. Pelayanan program <strong>"Lapor Mas Wapres!"</strong> diselenggarakan di Kantor Sekretariat Wakil Presiden, Jalan Kebon Sirih No.14 , Jakarta Pusat , pada :
                         <ul>
                             <li>a. Senin s.d. Kamis pukul 08.00 s.d. 14.00 WIB (istirahat 12.00 s.d. 13.00 WIB)</li>
                             <li>b. Jumat pukul 08.00 s.d. 14.30 WIB (istirahat 11.00 s.d.13.30 WIB)</li>
@@ -187,7 +187,7 @@
 
             <li><strong>HAL-HAL LAIN</strong>
                 <ol>
-                    <li>1. Pelapor menghormati tata tertib yang berlaku, menjaga etika dan kesopanan selama berada di lingkungan Kementerian Sekretariat Negara.</li>
+                    <li>1. Pelapor menghormati tata tertib yang berlaku, menjaga etika dan kesopanan selama berada di lingkungan Kantor Sekretariat Wakil Presiden.</li>
                     <li>2. Pelapor dilarang mengambil gambar/video dan membuat konten selama proses pelaporan.</li>
                     <li>3. Pelapor harus mentaati seluruh ketentuan dalam Tata Tertib Lapor Mas Wapres dan ketentuan lain yang ditetapkan di kemudian hari.</li>
                 </ol>
