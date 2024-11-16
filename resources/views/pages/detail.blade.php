@@ -117,7 +117,7 @@
         <div class="hover:cursor-pointer group flex gap-x-4 px-4 py-3 w-full bg-white transform hover:scale-105 transition duration-300 hover:shadow-custom hover:bg-gradient-to-r from-white to-secondary border-primary hover:border-secondary border rounded-lg items-center">
             <div class="flex items-center justify-center w-[32px] h-[28px] rounded-full bg-secondary text-primary font-bold text-base">10</div>
             <div class="flex flex-col w-full">
-                <p class="font-bold text-sm sm:text-base text-primary">Petugas Memasukkan Laporan</p>
+                <p class="font-bold text-sm sm:text-base text-primary">Proses Pelayanan Pengaduan</p>
                 <p class="font-normal text-xs sm:text-sm text-primary">Petugas mencatat laporan pelapor pada sistem.</p>
             </div>
         </div>
