@@ -154,8 +154,8 @@
                 <ol>
                     <li>1. Pelayanan program <strong>"Lapor Mas Wapres!"</strong> diselenggarakan di Sekretariat Wakil Presiden, Jalan Kebon Sirih 14 Jakarta Pusat, pada:
                         <ul>
-                            <li>a. Senin s.d. Kamis pukul 08.00 s.d. 14.00 WIB (Ishoma 12.00 s.d. 13.00 WIB)</li>
-                            <li>b. Jumat pukul 08.00 s.d. 14.00 WIB (Ishoma 11.00 s.d.13.00 WIB)</li>
+                            <li>a. Senin s.d. Kamis pukul 08.00 s.d. 14.00 WIB (istirahat 12.00 s.d. 13.00 WIB)</li>
+                            <li>b. Jumat pukul 08.00 s.d. 14.30 WIB (istirahat 11.00 s.d.13.30 WIB)</li>
                         </ul>
                     </li>
                     <li>2. Pelapor memakai pakaian bebas rapi, menggunakan alas kaki.</li>
