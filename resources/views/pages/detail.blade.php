@@ -109,7 +109,7 @@
             <div class="flex items-center justify-center w-[32px] h-[28px] rounded-full bg-secondary text-primary font-bold text-base">9</div>
             <div class="flex flex-col w-full">
                 <p class="font-bold text-sm sm:text-base text-primary">Menuju Loket sesuai Nomor Antrian</p>
-                <p class="font-normal text-xs sm:text-sm text-primary">Pelapor dipersilakan menuju loket yang sesuai dengan nomor panggilan di layar.</p>
+                <p class="font-normal text-xs sm:text-sm text-primary">Pelapor menuju loket yang sesuai dengan nomor panggilan di layar.</p>
             </div>
         </div>
 
@@ -136,7 +136,7 @@
             <div class="flex items-center justify-center w-[32px] h-[28px] rounded-full bg-secondary text-primary font-bold text-base">12</div>
             <div class="flex flex-col w-full">
                 <p class="font-bold text-sm sm:text-base text-primary">Meninggalkan Ruang Pengaduan</p>
-                <p class="font-normal text-xs sm:text-sm text-primary">Pelapor dipersilahkan meninggalkan ruang pengaduan dan mengambil kembali KTP/SIM di lobi dengan menukarkan ID Tamu.</p>
+                <p class="font-normal text-xs sm:text-sm text-primary">Pelapor meninggalkan ruang pengaduan dan mengambil kembali kartu identitas di lobi dengan menukarkan ID Tamu.</p>
             </div>
         </div>
     </div>
