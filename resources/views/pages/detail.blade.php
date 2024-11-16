@@ -100,7 +100,7 @@
             <div class="flex items-center justify-center w-[32px] h-[28px] rounded-full bg-secondary text-primary font-bold text-base">8</div>
             <div class="flex flex-col w-full">
                 <p class="font-bold text-sm sm:text-base text-primary">Ruang Pengaduan</p>
-                <p class="font-normal text-xs sm:text-sm text-primary">Pelapor dipersilakan masuk ke Ruang Pengaduan sesuai nomor panggilan.</p>
+                <p class="font-normal text-xs sm:text-sm text-primary">Pelapor memasuki ke Ruang Pengaduan sesuai nomor panggilan.</p>
             </div>
         </div>
 
