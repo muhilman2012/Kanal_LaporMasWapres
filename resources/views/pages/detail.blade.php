@@ -37,7 +37,7 @@
             <div class="flex items-center justify-center w-[32px] h-[28px] rounded-full bg-secondary text-primary font-bold text-base">1</div>
             <div class="flex flex-col w-full">
                 <p class="font-bold text-sm sm:text-base text-primary">Registrasi Online</p>
-                <p class="font-normal text-xs sm:text-sm text-primary">Pelapor melakukan registrasi online sebelum datang ke lokasi.</p>
+                <p class="font-normal text-xs sm:text-sm text-primary">Pelapor melakukan registrasi online melalui website https://lapormaswapres.id/ sebelum datang ke lokasi.</p>
             </div>
         </div>
 
