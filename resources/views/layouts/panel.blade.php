@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8"/>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.24/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <meta name="description" content="Lapor Mas Wapres adalah kanal pengaduan masyarakat untuk menyampaikan aspirasi, keluhan, dan saran. Anda bisa menghubungi kami melalui tatap muka, SP4N Lapor, surat korespondensi, dan WhatsApp.">
     <meta name="keywords" content="Lapor Mas Wapres, pengaduan masyarakat, kanal pengaduan, SP4N Lapor, tatap muka, korespondensi, WhatsApp, lapor wapres">
     <meta name="author" content="IT SETWAPRES">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="{{asset('/assets/LaporMasWapres.png')}}" type="image/png">
+    <link rel="icon" href="{{ asset('/assets/LaporMasWapres.png')}}" type="image/png">
+    <link href="{{ asset('/assets/css/tailwind.css') }}" rel="stylesheet" type="text/css">
     @yield('head')
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- Open Graph Meta Tags -->
@@ -29,7 +29,6 @@
     })(window,document,'script','dataLayer','GTM-5R6SXDK9');
     </script>
     <!-- End Google Tag Manager -->
-
     <style>
         html{
             box-sizing: border-box;
@@ -48,24 +47,6 @@
 
        
     </style>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#001A3B',
-                        secondary: '#9BDCFC',
-                        quote: '#607680',
-                        text: '#001A3B',
-                        red: '#D64045',
-                    },
-                    boxShadow: {
-                        'custom': '0px 0px 31.5px 4.2px rgba(155, 220, 252, 0.7)',
-                    },
-                }
-            }
-        }
-    </script>
 </head>
 
 <body class="bg-gray-50 text-gray-900">
