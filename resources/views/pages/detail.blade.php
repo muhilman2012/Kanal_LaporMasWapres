@@ -1,8 +1,8 @@
 @extends('layouts.panel')
 
 @section('head')
-    <title>Lapor Mas Wapres! - Detail Pengaduan Tatap Muka</title>
-    <meta property="og:title" content="Lapor Mas Wapres! - Detail Pengaduan Tatap Muka">
+    <title>Lapor Mas Wapres! - Alur Pengaduan Tatap Muka</title>
+    <meta property="og:title" content="Lapor Mas Wapres! - Alur Pengaduan Tatap Muka">
     <style>
         ol {
             margin-left: 20px;

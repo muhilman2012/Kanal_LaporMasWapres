@@ -43,7 +43,7 @@
       title="LAPOR MAS WAPRES"
       onload="window.parent.scrollTo(0,0)"
       allowtransparency="true"
-      allow="geolocation; microphone; camera; fullscreen"
+      allow="geolocation; fullscreen"
       src="https://form.jotform.com/243191687518062"
       frameborder="0"
       style="min-width:100%;max-width:100%;height:539px;border:none;"
