@@ -170,7 +170,7 @@
                     <li>2. Substansi aduan tidak sedang atau telah menjadi objek peradilan.</li>
                     <li>3. Substansi aduan belum pernah disampaikan oleh pelapor kepada Wakil Presiden.</li>
                     <li>4. Pelapor wajib membawa dokumen pendukung pengaduan yang lengkap dan relevan.</li>
-                    <li>5. Petugas memverifikasi dokumen pengaduan. Apabila dokumen tidak lengkap, petugas akan meminta pelapor untuk mengirimkan kelengkapan dokumen melalui surel <i>lapormaswapres@set.wapresri.go.id</i>. Pelaporan tidak diproses apabila pelapor tidak melengkapi dokumen tersebut dalam kurun waktu 10 hari.</li>
+                    <li>5. Petugas memverifikasi dokumen pengaduan. Apabila dokumen tidak lengkap, petugas akan meminta pelapor untuk mengirimkan kelengkapan dokumen melalui surel <i>lapormaswapres@set.wapresri.go.id</i> Pelaporan tidak diproses apabila pelapor tidak melengkapi dokumen tersebut dalam kurun waktu 10 hari.</li>
                     <li>6. Pelapor wajib menyampaikan nomor kontak atau surel yang dapat dihubungi.</li>
                 </ol>
             </li><br>
