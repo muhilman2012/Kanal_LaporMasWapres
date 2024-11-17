@@ -29,10 +29,7 @@
         <p class="font-normal italic text-base text-quote">Panduan Langkah Demi Langkah untuk Pengaduan Tatap Muka</p>
     </div>
 
-    <!-- <p class="text-sm sm:text-base text-red font-bold text-center max-w-screen-md">PERHATIAN !! kuota harian hanya 60 orang</p> -->
-
     <div class="grid gap-y-4 sm:gap-y-5 w-full sm:grid-cols-1 md:grid-cols-2 gap-x-5 my-5 sm:mt-[64px] max-w-[968px]">
-        <!-- Langkah 1: Registrasi Online -->
         <div class=" group flex gap-x-4 px-4 py-3 w-full bg-white transform border-primary border rounded-lg items-center">
             <div class="flex items-center justify-center w-[32px] h-[28px] rounded-full bg-secondary text-primary font-bold text-base">1</div>
             <div class="flex flex-col w-full">
@@ -41,7 +38,6 @@
             </div>
         </div>
 
-        <!-- Langkah 2: Datang -->
         <div class=" group flex gap-x-4 px-4 py-3 w-full bg-white transform border-primary border rounded-lg items-center">
             <div class="flex items-center justify-center w-[32px] h-[28px] rounded-full bg-secondary text-primary font-bold text-base">2</div>
             <div class="flex flex-col w-full">
@@ -50,7 +46,6 @@
             </div>
         </div>
 
-        <!-- Langkah 3: Pengecekan Bukti Registrasi Online -->
         <div class=" group flex gap-x-4 px-4 py-3 w-full bg-white transform border-primary border rounded-lg items-center">
             <div class="flex items-center justify-center w-[32px] h-[28px] rounded-full bg-secondary text-primary font-bold text-base">3</div>
             <div class="flex flex-col w-full">
@@ -59,7 +54,6 @@
             </div>
         </div>
 
-        <!-- Langkah 4: Tukar KTP -->
         <div class=" group flex gap-x-4 px-4 py-3 w-full bg-white transform border-primary border rounded-lg items-center">
             <div class="flex items-center justify-center w-[32px] h-[28px] rounded-full bg-secondary text-primary font-bold text-base">4</div>
             <div class="flex flex-col w-full">
@@ -68,7 +62,6 @@
             </div>
         </div>
 
-        <!-- Langkah 5: Mengambil Antrian -->
         <div class=" group flex gap-x-4 px-4 py-3 w-full bg-white transform border-primary border rounded-lg items-center">
             <div class="flex items-center justify-center w-[32px] h-[28px] rounded-full bg-secondary text-primary font-bold text-base">5</div>
             <div class="flex flex-col w-full">
@@ -77,7 +70,6 @@
             </div>
         </div>
 
-        <!-- Langkah 6: Meja Registrasi -->
         <div class=" group flex gap-x-4 px-4 py-3 w-full bg-white transform border-primary border rounded-lg items-center">
             <div class="flex items-center justify-center w-[32px] h-[28px] rounded-full bg-secondary text-primary font-bold text-base">6</div>
             <div class="flex flex-col w-full">
@@ -86,7 +78,6 @@
             </div>
         </div>
 
-        <!-- Langkah 7: Menunggu Giliran Dipanggil -->
         <div class=" group flex gap-x-4 px-4 py-3 w-full bg-white transform border-primary border rounded-lg items-center">
             <div class="flex items-center justify-center w-[32px] h-[28px] rounded-full bg-secondary text-primary font-bold text-base">7</div>
             <div class="flex flex-col w-full">
@@ -95,7 +86,6 @@
             </div>
         </div>
 
-        <!-- Langkah 8: Ruang Dumas -->
         <div class=" group flex gap-x-4 px-4 py-3 w-full bg-white transform border-primary border rounded-lg items-center">
             <div class="flex items-center justify-center w-[32px] h-[28px] rounded-full bg-secondary text-primary font-bold text-base">8</div>
             <div class="flex flex-col w-full">
@@ -104,7 +94,6 @@
             </div>
         </div>
 
-        <!-- Langkah 9: Ke Loket Sesuai Panggilan -->
         <div class=" group flex gap-x-4 px-4 py-3 w-full bg-white transform border-primary border rounded-lg items-center">
             <div class="flex items-center justify-center w-[32px] h-[28px] rounded-full bg-secondary text-primary font-bold text-base">9</div>
             <div class="flex flex-col w-full">
@@ -113,7 +102,6 @@
             </div>
         </div>
 
-        <!-- Langkah 10: Petugas Memasukkan Laporan -->
         <div class=" group flex gap-x-4 px-4 py-3 w-full bg-white transform border-primary border rounded-lg items-center">
             <div class="flex items-center justify-center w-[32px] h-[28px] rounded-full bg-secondary text-primary font-bold text-base">10</div>
             <div class="flex flex-col w-full">
@@ -122,7 +110,6 @@
             </div>
         </div>
 
-        <!-- Langkah 11: Cetak Bukti Laporan -->
         <div class=" group flex gap-x-4 px-4 py-3 w-full bg-white transform border-primary border rounded-lg items-center">
             <div class="flex items-center justify-center w-[32px] h-[28px] rounded-full bg-secondary text-primary font-bold text-base">11</div>
             <div class="flex flex-col w-full">
@@ -131,7 +118,6 @@
             </div>
         </div>
 
-        <!-- Langkah 12: Meninggalkan Ruangan -->
         <div class=" group flex gap-x-4 px-4 py-3 w-full bg-white transform border-primary border rounded-lg items-center">
             <div class="flex items-center justify-center w-[32px] h-[28px] rounded-full bg-secondary text-primary font-bold text-base">12</div>
             <div class="flex flex-col w-full">
