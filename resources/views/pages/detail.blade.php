@@ -36,8 +36,8 @@
         <div class=" group flex gap-x-4 px-4 py-3 w-full bg-white transform border-primary border rounded-lg items-center">
             <div class="flex items-center justify-center w-[32px] h-[28px] rounded-full bg-secondary text-primary font-bold text-base">1</div>
             <div class="flex flex-col w-full">
-                <p class="font-bold text-sm sm:text-base text-primary">Registrasi Online</p>
-                <p class="font-normal text-xs sm:text-sm text-primary">Pelapor melakukan registrasi online melalui website https://lapormaswapres.id/ sebelum datang ke lokasi.</p>
+                <p class="font-bold text-sm sm:text-base text-primary">Registrasi <i>Online</i></p>
+                <p class="font-normal text-xs sm:text-sm text-primary">Pelapor melakukan registrasi <i>online</i> melalui website <i>https://lapormaswapres.id</i> sebelum datang ke lokasi.</p>
             </div>
         </div>
 
@@ -46,7 +46,7 @@
             <div class="flex items-center justify-center w-[32px] h-[28px] rounded-full bg-secondary text-primary font-bold text-base">2</div>
             <div class="flex flex-col w-full">
                 <p class="font-bold text-sm sm:text-base text-primary">Pelapor Datang</p>
-                <p class="font-normal text-xs sm:text-sm text-primary">Pelapor datang ke lokasi pengaduan di Kantor Sekretariat Wakil Presiden yang beralamat di Jl. Kebon Sirih No.14 , Jakarta Pusat</p>
+                <p class="font-normal text-xs sm:text-sm text-primary">Pelapor datang ke lokasi pengaduan di Kantor Sekretariat Wakil Presiden yang beralamat di Jln. Kebon Sirih No. 14, Jakarta Pusat.</p>
             </div>
         </div>
 
@@ -54,8 +54,8 @@
         <div class=" group flex gap-x-4 px-4 py-3 w-full bg-white transform border-primary border rounded-lg items-center">
             <div class="flex items-center justify-center w-[32px] h-[28px] rounded-full bg-secondary text-primary font-bold text-base">3</div>
             <div class="flex flex-col w-full">
-                <p class="font-bold text-sm sm:text-base text-primary">Pengecekan Bukti Registrasi Online</p>
-                <p class="font-normal text-xs sm:text-sm text-primary">Petugas melakukan pengecekan bukti registrasi online pelapor.</p>
+                <p class="font-bold text-sm sm:text-base text-primary">Pengecekan Bukti Registrasi <i>Online</i></p>
+                <p class="font-normal text-xs sm:text-sm text-primary">Petugas melakukan pengecekan bukti registrasi <i>online</i> pelapor.</p>
             </div>
         </div>
 
@@ -63,8 +63,8 @@
         <div class=" group flex gap-x-4 px-4 py-3 w-full bg-white transform border-primary border rounded-lg items-center">
             <div class="flex items-center justify-center w-[32px] h-[28px] rounded-full bg-secondary text-primary font-bold text-base">4</div>
             <div class="flex flex-col w-full">
-                <p class="font-bold text-sm sm:text-base text-primary">Penukaran ID</p>
-                <p class="font-normal text-xs sm:text-sm text-primary">Pelapor menukarkan KTP/SIM untuk mendapatkan ID Tamu.</p>
+                <p class="font-bold text-sm sm:text-base text-primary">Penukaran Kartu Identitas</p>
+                <p class="font-normal text-xs sm:text-sm text-primary">Pelapor menukarkan kartu identitas (KTP/SIM) untuk mendapatkan kartu ID Tamu.</p>
             </div>
         </div>
 
@@ -127,7 +127,7 @@
             <div class="flex items-center justify-center w-[32px] h-[28px] rounded-full bg-secondary text-primary font-bold text-base">11</div>
             <div class="flex flex-col w-full">
                 <p class="font-bold text-sm sm:text-base text-primary">Cetak Bukti Laporan</p>
-                <p class="font-normal text-xs sm:text-sm text-primary">Petugas memberikan bukti laporan kepada pelapor.</p>
+                <p class="font-normal text-xs sm:text-sm text-primary">Petugas memberikan lembar bukti laporan kepada pelapor.</p>
             </div>
         </div>
 
@@ -136,52 +136,52 @@
             <div class="flex items-center justify-center w-[32px] h-[28px] rounded-full bg-secondary text-primary font-bold text-base">12</div>
             <div class="flex flex-col w-full">
                 <p class="font-bold text-sm sm:text-base text-primary">Meninggalkan Ruang Pengaduan</p>
-                <p class="font-normal text-xs sm:text-sm text-primary">Pelapor meninggalkan ruang pengaduan dan mengambil kembali kartu identitas di lobi dengan menukarkan ID Tamu.</p>
+                <p class="font-normal text-xs sm:text-sm text-primary">Pelapor meninggalkan ruang pengaduan dan mengambil kembali kartu identitas dengan menukarkan kartu ID Tamu.</p>
             </div>
         </div>
     </div>
 
     <a onclick="openModal()" class="w-full bg-gradient-to-r from-primary to-secondary text-white text-center font-semibold text-sm py-3 rounded-lg transform hover:scale-105 transition duration-300 hover:shadow-custom cursor-pointer">
-        <p class="font-bold text-lg sm:text-lg text-white text-center">Registrasi Online Disini <br> (kuota online 50 orang / hari)</p>
+        <p class="font-bold text-lg sm:text-lg text-white text-center">Registrasi <i>Online</i> (klik di sini) <br> (kuota <i>online</i> 50 orang/hari)</p>
     </a>
 </div>
 <!-- Modal untuk Syarat dan Ketentuan -->
 <div id="modal" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 hidden z-50">
     <div class="bg-white p-6 rounded-lg w-full max-w-md max-h-[90vh] overflow-y-auto">
-        <h2 class="text-xl font-bold mb-4 text-center">Tata Tertib Pelaksanaan Pelayanan Program Lapor Mas Wapres!</h2>
+        <h2 class="text-xl font-bold mb-4 text-center">Tata Tertib Pelayanan Program <br> Lapor Mas Wapres!</h2>
         <div class="text-md text-dark-700 mb-4">
             <li><strong>KETENTUAN UMUM</strong>
                 <ol>
-                    <li>1. Pelayanan program <strong>"Lapor Mas Wapres!"</strong> diselenggarakan di Kantor Sekretariat Wakil Presiden, Jalan Kebon Sirih No.14 , Jakarta Pusat , pada hari kerja :
+                    <li>1. Pelayanan program <strong>Lapor Mas Wapres!</strong> diselenggarakan di Kantor Sekretariat Wakil Presiden, Jalan Kebon Sirih No. 14, Jakarta Pusat, pada hari kerja:
                         <ul>
-                            <li>a. Senin s.d. Kamis pukul 08.00 s.d. 14.00 WIB (istirahat 12.00 s.d. 13.00 WIB)</li>
-                            <li>b. Jumat pukul 08.00 s.d. 14.30 WIB (istirahat 11.00 s.d.13.30 WIB)</li>
+                            <li>a. Senin s.d. Kamis, pukul 08.00 s.d. 14.00 WIB (istirahat, pukul 12.00 s.d. 13.00 WIB)</li>
+                            <li>b. Jumat, pukul 08.00 s.d. 14.30 WIB (istirahat, pukul 11.00 s.d. 13.30 WIB)</li>
                         </ul>
                     </li>
                     <li>2. Pelapor memakai pakaian bebas rapi.</li>
-                    <li>3. Pelapor wajib membawa kartu identitas diri (KTP/SIM/Identitas lain yang terdapat NIK).</li>
-                    <li>4. Pengaduan yang dilayani berjumlah maksimal 50 orang / hari.</li>
+                    <li>3. Pelapor wajib membawa kartu identitas (KTP/SIM/Identitas lain yang tercantum NIK).</li>
+                    <li>4. Pengaduan yang dilayani berjumlah maksimal 50 orang/hari.</li>
                 </ol>
             </li><br>
 
             <li><strong>KETENTUAN PENGADUAN</strong>
                 <ol>
-                    <li>1. Pelapor adalah orang yang langsung mengalami kejadian. Apabila pelapor bukan yang mengalami kejadian langsung maka pelapor harus membawa surat kuasa bermaterai dari pihak yang diwakili.</li>
+                    <li>1. Pelapor adalah orang yang langsung mengalami kejadian. Apabila pelapor bukan yang mengalami kejadian langsung, maka pelapor harus membawa surat kuasa bermaterai dari pihak yang diwakili.</li>
                     <li>2. Substansi aduan tidak sedang atau telah menjadi objek peradilan.</li>
                     <li>3. Substansi aduan belum pernah disampaikan oleh pelapor kepada Wakil Presiden.</li>
                     <li>4. Pelapor wajib membawa dokumen pendukung pengaduan yang lengkap dan relevan.</li>
-                    <li>5. Petugas memverifikasi dokumen pengaduan. Apabila dokumen tidak lengkap, petugas akan meminta pelapor untuk mengirimkan kelengkapan dokumen melalui surel (lapormaswapres@set.wapresri.go.id) dalam kurun waktu 10 hari. Pelaporan tidak diproses apabila pelapor tidak melengkapi dokumen tersebut dalam 10 hari.</li>
-                    <li>6. Pelapor wajib menyampaikan nomor kontak atau e-mail yang dapat dihubungi.</li>
+                    <li>5. Petugas memverifikasi dokumen pengaduan. Apabila dokumen tidak lengkap, petugas akan meminta pelapor untuk mengirimkan kelengkapan dokumen melalui surel <i>lapormaswapres@set.wapresri.go.id</i>. Pelaporan tidak diproses apabila pelapor tidak melengkapi dokumen tersebut dalam kurun waktu 10 hari.</li>
+                    <li>6. Pelapor wajib menyampaikan nomor kontak atau surel yang dapat dihubungi.</li>
                 </ol>
             </li><br>
 
             <li><strong>REGISTRASI DAN PROSES PENGADUAN</strong>
                 <ol>
-                    <li>1. Pelapor melakukan registrasi secara daring melalui <a href="https://lapormaswapres.id">https://lapormaswapres.id</a></li>
-                    <li>2. Pelapor yang telah berhasil melakukan registrasi hadir sesuai tanggal yang dipilih.</li>
-                    <li>3. Pelapor menunggu di tempat yang telah disediakan.</li>
-                    <li>4. Petugas melakukan verifikasi dan memberikan nomor urut pengaduan.</li>
-                    <li>5. Petugas mempersilahkan pelapor ke Ruang Pengaduan Masyarakat berdasarkan nomor urut.</li>
+                    <li>1. Pelapor melakukan registrasi secara <i>online</i> melalui <a href="https://lapormaswapres.id"><i>https://lapormaswapres.id</i></a></li>
+                    <li>2. Pelapor yang telah berhasil melakukan registrasi <i>online</i>, harap hadir sesuai tanggal yang dipilih.</li>
+                    <li>3. Pelapor menunggu di ruang tunggu yang telah disediakan.</li>
+                    <li>4. Petugas memverifikasi dan memberikan nomor antrian pengaduan.</li>
+                    <li>5. Petugas mempersilahkan pelapor ke Ruang Pengaduan berdasarkan nomor antrian.</li>
                 </ol>
             </li><br>
 
@@ -189,7 +189,7 @@
                 <ol>
                     <li>1. Pelapor menghormati tata tertib yang berlaku, menjaga etika dan kesopanan selama berada di lingkungan Sekretariat Wakil Presiden.</li>
                     <li>2. Pelapor dilarang mengambil gambar/video dan membuat konten selama proses pelaporan.</li>
-                    <li>3. Pelapor harus mentaati seluruh ketentuan dalam Tata Tertib Lapor Mas Wapres dan ketentuan lain yang ditetapkan di kemudian hari.</li>
+                    <li>3. Pelapor harus menaati seluruh ketentuan dalam Tata Tertib <b>Lapor Mas Wapres!</b> dan ketentuan lain yang ditetapkan di kemudian hari.</li>
                 </ol>
             </li>
         </div>
