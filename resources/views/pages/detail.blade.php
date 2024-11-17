@@ -187,7 +187,7 @@
 
             <li><strong>HAL-HAL LAIN</strong>
                 <ol>
-                    <li>1. Pelapor menghormati tata tertib yang berlaku, menjaga etika dan kesopanan selama berada di lingkungan Kantor Sekretariat Wakil Presiden.</li>
+                    <li>1. Pelapor menghormati tata tertib yang berlaku, menjaga etika dan kesopanan selama berada di lingkungan Sekretariat Wakil Presiden.</li>
                     <li>2. Pelapor dilarang mengambil gambar/video dan membuat konten selama proses pelaporan.</li>
                     <li>3. Pelapor harus mentaati seluruh ketentuan dalam Tata Tertib Lapor Mas Wapres dan ketentuan lain yang ditetapkan di kemudian hari.</li>
                 </ol>
