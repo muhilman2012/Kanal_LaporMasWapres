@@ -7,10 +7,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <meta name="description" content="Lapor Mas Wapres adalah kanal pengaduan masyarakat untuk menyampaikan aspirasi, keluhan, dan saran. Anda bisa menghubungi kami melalui tatap muka, SP4N Lapor, surat korespondensi, dan WhatsApp.">
-    <meta name="keywords" content="Lapor Mas Wapres, pengaduan masyarakat, kanal pengaduan, SP4N Lapor, tatap muka, korespondensi, WhatsApp, lapor wapres">
+    <meta name="keywords" content="Lapor Mas Wapres, pengaduan masyarakat, kanal pengaduan, SP4N Lapor, tatap muka, korespondensi, WhatsApp, lapor wapres, website lapor mas wapres, tata tertib lapor mas wapres, alur pengaduan lapor mas wapres,">
     <meta name="author" content="IT SETWAPRES">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="{{ asset('/assets/LaporMasWapres.png')}}" type="image/png">
+    <link rel="apple-touch-icon" href="{{ asset('/assets/LaporMasWapres.png')}}" type="image/png">
+    <link rel="shortcut icon" href="{{ asset('/assets/LaporMasWapres.png')}}" type="image/png">
     <link href="{{ asset('/assets/css/tailwind.css') }}" rel="stylesheet" type="text/css">
     @yield('head')
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
