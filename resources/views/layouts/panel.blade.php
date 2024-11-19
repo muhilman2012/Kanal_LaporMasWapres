@@ -18,7 +18,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- Open Graph Meta Tags -->
     <meta property="og:description" content="Lapor Mas Wapres! adalah kanal pengaduan masyarakat untuk menyampaikan aspirasi, keluhan, dan saran melalui tatap muka, SP4N Lapor, surat korespondensi, dan WhatsApp.">
-    <meta property="og:image" content="https://lapormaswapres.id/assets/LaporMasWapres.png">
+    <meta property="og:image"  content="https://lapormaswapres.id/assets/LaporMasWapres.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
     <meta property="og:url" content="https://lapormaswapres.id/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Lapor Mas Wapres!">
