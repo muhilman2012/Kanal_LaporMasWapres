@@ -19,7 +19,6 @@ use Spatie\Sitemap\Tags\Url;
 
 Route::get('/', [indexController::class, 'index'])->name('index');
 Route::get('/tatap-muka', [indexController::class, 'detail'])->name('detail');
-Route::get('/syarat-ketentuan', [indexController::class, 'syarat'])->name('syarat');
 Route::get('/registrasi', [indexController::class, 'reservasi'])->name('reservasi');
 
 Route::get('/sitemap.xml', function () {
