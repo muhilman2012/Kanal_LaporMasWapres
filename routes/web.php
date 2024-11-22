@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\pages\indexController;
+use App\Http\Controllers\RegistrasiController;
+
 use Spatie\Sitemap\Sitemap;
 use Spatie\Sitemap\Tags\Url;
 
@@ -20,6 +22,8 @@ use Spatie\Sitemap\Tags\Url;
 Route::get('/', [indexController::class, 'index'])->name('index');
 Route::get('/tatap-muka', [indexController::class, 'detail'])->name('detail');
 Route::get('/registrasi', [indexController::class, 'reservasi'])->name('reservasi');
+Route::match(['get', 'post'], '/registration', [RegistrasiController::class, 'registrasi'])->name('registrasi');
+Route::get('/download-pdf', [RegistrasiController::class, 'downloadPDF'])->name('download.pdf');
 
 Route::get('/sitemap.xml', function () {
     $sitemap = Sitemap::create()

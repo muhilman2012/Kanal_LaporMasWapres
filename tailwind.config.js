@@ -6,7 +6,8 @@ module.exports = {
       "./resources/views/pages/detail.blade.php",  // File detail
       "./resources/views/pages/reservasi.blade.php", // File reservasi
       "./resources/views/pages/registrasi.blade.php", // File registrasi
-      "./resources/views/pages/syarat.blade.php" // File syarat
+      "./resources/views/pages/syarat.blade.php", // File syarat
+      "./resources/views/pages/registrasi/tata-tertib.blade.php" // File syarat
   ],
   theme: {
       extend: {
