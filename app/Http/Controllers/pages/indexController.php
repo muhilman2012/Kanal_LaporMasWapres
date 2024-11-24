@@ -15,10 +15,6 @@ class indexController extends Controller
         return view('pages.detail');
     }
 
-    public function syarat(){
-        return view('pages.syarat');
-    }
-
     public function reservasi(){
         return view('pages.reservasi');
     }
