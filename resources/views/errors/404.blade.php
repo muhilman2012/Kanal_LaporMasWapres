@@ -28,14 +28,14 @@
 @endsection
 
 @section('pages')
-<div class="flex flex-1 justify-center w-full" style="padding-top: 180px;">
-    <div class="relative error-container w-[625px] bg-sky gap-y-5 rounded-3xl">
-        <div class="absolute error-code " style="top: -185px;">
-            <img src="{{ url ('/assets/404.png') }}" alt="">
+<div class="flex flex-1 justify-center w-full pt-32">
+    <div class="relative error-container w-[625px] bg-blue-200 gap-y-5 rounded-3xl">
+        <div class="absolute error-code" style="top: -170px;">
+            <img src="{{ url ('/assets/404.png') }}" alt="" class="w-72">
         </div>
-        <div class="flex flex-col mb-0 gap-y-5 error-message text-center" style="padding-top: 40px;">
+        <div class="flex flex-col mb-0 gap-y-5 error-message text-center pt-20 px-6">
             <p class="text-6xl font-bold text-black">Oops<span class="italic">!</span></p>
-            <p>Halaman Tidak Ditemukan</p>
+            <p class="text-xl">Halaman Tidak Ditemukan</p>
             <a href="{{ route('index') }}" class="bg-gradient-to-r from-primary to-secondary text-white text-center font-semibold text-sm border-none py-3 px-4 rounded-lg transform hover:scale-105 transition duration-300 hover:shadow-custom cursor-pointer">Kembali ke Beranda</a>
         </div>
 

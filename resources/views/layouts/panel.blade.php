@@ -12,16 +12,12 @@
     <meta name="keywords" content="Lapor Mas Wapres, pengaduan masyarakat, kanal pengaduan, SP4N Lapor, tatap muka, korespondensi, WhatsApp, lapor wapres">
     <meta name="author" content="IT SETWAPRES">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< Updated upstream
     <link rel="icon" href="{{asset('/assets/LaporMasWapres.webp')}}" type="image/svg">
-=======
     <link rel="icon" href="{{ asset('/assets/LaporMasWapres.png')}}" type="image/png">
     <link rel="apple-touch-icon" href="{{ asset('/assets/LaporMasWapres.png')}}" type="image/png">
     <link rel="shortcut icon" href="{{ asset('/assets/LaporMasWapres.png')}}" type="image/png">
     <link href="{{ asset('/assets/css/tailwind.css') }}" rel="stylesheet" type="text/css">
 
-   
->>>>>>> Stashed changes
     @yield('head')
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- Open Graph Meta Tags -->
@@ -79,10 +75,7 @@
 
         <!-- Footer -->
         <div class="flex flex-col gap-1 w-full max-w-[440px] items-center pb-7">
-            <div class="flex flex-col py-2 w-full items-center">
-                <h3 class="font-bold text-sm sm:text-base text-primary text-center">Butuh Bantuan?</h3>
-            </div>
-            <a href="https://wa.me/6281117042207/?text=Halo" target="_blank" class="w-full bg-gradient-to-r from-primary to-secondary text-white text-center font-semibold text-sm py-3 rounded-lg transform hover:scale-105 transition duration-300 hover:shadow-custom">Hubungi Layanan Pelanggan</a>
+            
             <div class="flex gap-x-4 my-3">
                 <a href="https://wapresri.go.id/" target="_blank" alt="Website Setwapres">
                     <svg class="hover:text-primary text-secondary transform transition duration-300" width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" >

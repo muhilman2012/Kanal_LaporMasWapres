@@ -34,7 +34,7 @@
         Tata Tertib Pelayanan Program <br/> <span class="font-bold">Lapor Mas Wapres!</span>
       </h1>
       <div
-        class="w-full md:w-4/5 bg-blue-200 px-4 py-6 md:p-6 md:p-10 lg:p-16 rounded-md md:rounded-xl mx-auto text-clip text-sm md:text-base"
+        class="w-full bg-blue-200 px-4 py-6 md:p-10 lg:p-16 rounded-md md:rounded-xl mx-auto text-clip text-sm md:text-base"
       >
         <div class="content">
           <h3 class="font-semibold mb-1">A. Ketentuan Umum</h3>
@@ -162,6 +162,7 @@
         </div>
       </div>
     </div>
+    
 @endsection
 
 @section('script')
