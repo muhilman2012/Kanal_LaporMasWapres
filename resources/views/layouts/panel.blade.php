@@ -12,7 +12,16 @@
     <meta name="keywords" content="Lapor Mas Wapres, pengaduan masyarakat, kanal pengaduan, SP4N Lapor, tatap muka, korespondensi, WhatsApp, lapor wapres">
     <meta name="author" content="IT SETWAPRES">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< Updated upstream
     <link rel="icon" href="{{asset('/assets/LaporMasWapres.webp')}}" type="image/svg">
+=======
+    <link rel="icon" href="{{ asset('/assets/LaporMasWapres.png')}}" type="image/png">
+    <link rel="apple-touch-icon" href="{{ asset('/assets/LaporMasWapres.png')}}" type="image/png">
+    <link rel="shortcut icon" href="{{ asset('/assets/LaporMasWapres.png')}}" type="image/png">
+    <link href="{{ asset('/assets/css/tailwind.css') }}" rel="stylesheet" type="text/css">
+
+   
+>>>>>>> Stashed changes
     @yield('head')
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- Open Graph Meta Tags -->
