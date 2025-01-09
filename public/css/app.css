@@ -858,7 +858,7 @@ video {
 
 .bg-gold {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 195 0 / var(--tw-bg-opacity, 1));
+  background-color: rgb(241 195 0 / var(--tw-bg-opacity, 1));
 }
 
 .bg-white {

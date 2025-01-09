@@ -43,6 +43,7 @@
                         quote: '#607680',
                         text: '#001A3B',
                         red: '#D64045',
+                        gold: '#FFC300',
                     },
                     boxShadow: {
                         'custom': '0px 0px 31.5px 4.2px rgba(155, 220, 252, 0.7)',
