@@ -22,6 +22,7 @@ use Spatie\Sitemap\Tags\Url;
 Route::get('/', [indexController::class, 'index'])->name('index');
 Route::get('/tatap-muka', [indexController::class, 'detail'])->name('detail');
 Route::get('/registrasi', [indexController::class, 'reservasi'])->name('reservasi');
+Route::get('/tindak-lanjut', [indexController::class, 'tindaklanjut'])->name('tindaklanjut');
 Route::match(['get', 'post'], '/registration', [RegistrasiController::class, 'registrasi'])->name('registrasi');
 Route::get('/download-pdf', [RegistrasiController::class, 'downloadPDF'])->name('download.pdf');
 

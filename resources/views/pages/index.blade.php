@@ -13,17 +13,17 @@
         <!-- <p class="font-normal italic text-base text-quote"></p> -->
     </div>
 
-    <div class="grid gap-y-4 sm:gap-y-5 w-full sm:grid-cols-1 md:grid-cols-2 gap-x-5 my-5 sm:my-[64px] max-w-[968px]">
+    <div class="grid gap-y-4 sm:gap-y-5 h-full sm:grid-cols-1 md:grid-cols-2 gap-x-5 my-5 sm:my-[64px] max-w-[968px]">
         <a href="{{ route ('detail') }}" class="hover:cursor-pointer group flex gap-x-4 px-4 py-3 w-full bg-white transform hover:scale-105 transition duration-300 hover:shadow-custom hover:bg-gradient-to-r from-white to-secondary border-primary hover:border-secondary border rounded-lg items-center">
-            <img class="w-5 h-5 sm:w-6 sm:h-6 group-hover:w-6 group-hover:h-6 sm:group-hover:w-7 sm:group-hover:h-7 transition-all duration-300" src="{{ url ('/assets/emoji.webp') }}" alt="Emoji">
+            <img class="w-5 h-5 sm:w-6 sm:h-6 group-hover:w-6 group-hover:h-6 sm:group-hover:w-7 sm:group-hover:h-7 transition-all duration-300" src="{{ url ('/assets/images/emoji.webp') }}" alt="Emoji">
             <div class="flex flex-col">
-                <p class="font-bold text-sm sm:text-base text-primary">Tatap Muka (Registrasi <i>Online</i>)</p>
+                <p class="font-bold text-sm sm:text-base text-primary">Tatap Muka <br> (Registrasi <i>Online</i> dan Tindak Lanjut)</p>
                 <p class="font-normal text-xs sm:text-sm text-primary">Sampaikan langsung di Kantor Sekretariat Wakil Presiden Jln. Kebon Sirih No. 14, Jakarta Pusat</p>
             </div>
         </a>
 
         <a href="https://wa.me/6281117042204/?text=Halo" target="_blank" class="hover:cursor-pointer group flex gap-x-4 px-4 py-3 w-full bg-white transform hover:scale-105 transition duration-300 hover:shadow-custom hover:bg-gradient-to-r from-white to-secondary border-primary hover:border-secondary border rounded-lg items-center">
-            <img class="w-5 h-5 sm:w-6 sm:h-6 group-hover:w-6 group-hover:h-6 sm:group-hover:w-7 sm:group-hover:h-7 transition-all duration-300" src="{{ url ('/assets/whatsapp.webp') }}" alt="Logo WhatsApp">
+            <img class="w-5 h-5 sm:w-6 sm:h-6 group-hover:w-6 group-hover:h-6 sm:group-hover:w-7 sm:group-hover:h-7 transition-all duration-300" src="{{ url ('/assets/images/whatsapp.webp') }}" alt="Logo WhatsApp">
             <div class="flex flex-col">
                 <p class="font-bold text-sm sm:text-base text-primary">WhatsApp</p>
                 <p class="font-normal text-xs sm:text-sm text-primary">Hubungi kami via WhatsApp.</p>

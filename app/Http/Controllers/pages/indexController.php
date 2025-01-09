@@ -18,4 +18,8 @@ class indexController extends Controller
     public function reservasi(){
         return view('pages.reservasi');
     }
+
+    public function tindaklanjut(){
+        return view('pages.tindaklanjut');
+    }
 }

@@ -128,7 +128,11 @@
     </div>
 
     <a href="{{ route('reservasi') }}" class="w-full bg-gradient-to-r from-primary to-secondary text-white text-center font-semibold text-sm py-3 rounded-lg transform hover:scale-105 transition duration-300 hover:shadow-custom cursor-pointer">
-        <p class="font-bold text-lg sm:text-lg text-white text-center">Registrasi <i>Online</i> (klik di sini) <br> (kuota <i>online</i> 50 orang/hari)</p>
+        <p class="font-bold text-lg sm:text-lg text-white text-center">Registrasi Pendaftaran <i>Online</i> (klik di sini) <br> (kuota <i>online</i> 50 orang/hari)</p>
+    </a>
+
+    <a href="{{ route('tindaklanjut') }}" class="w-full bg-gradient-to-r from-primary to-white text-white text-center font-semibold text-sm py-3 rounded-lg transform hover:scale-105 transition duration-300 hover:shadow-custom cursor-pointer">
+        <p class="font-bold text-lg sm:text-lg text-white text-center">Registrasi Tindak Lanjut <br> (klik di sini)</p>
     </a>
 </div>
 @endsection
