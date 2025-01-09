@@ -895,6 +895,21 @@ video {
     background-color: rgb(155 220 252 / var(--tw-bg-opacity, 1));
 }
 
+.bg-gold {
+    --tw-bg-opacity: 1;
+    background-color: rgb(241 195 0 / var(--tw-bg-opacity, 1));
+}
+
+.bg-pink {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 39 239 / var(--tw-bg-opacity, 1));
+}
+
+.bg-ocean {
+    --tw-bg-opacity: 1;
+    background-color: rgb(64 224 208 / var(--tw-bg-opacity, 1));
+}
+
 .bg-sky {
     background-color: rgb(205 239 255);
 }
