@@ -34,6 +34,9 @@ Route::get('/sitemap.xml', function () {
         ->add(Url::create('/tatap-muka')
             ->setPriority(0.8)
             ->setChangeFrequency('weekly'))
+        ->add(Url::create('/tindak-lanjut')
+            ->setPriority(0.9)
+            ->setChangeFrequency('weekly'))
         ->add(Url::create('/registrasi')
             ->setPriority(0.9)
             ->setChangeFrequency('weekly'));
