@@ -3,9 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.24/dist/full.min.css" rel="stylesheet" type="text/css">
-    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <meta name="description" content="Lapor Mas Wapres adalah kanal pengaduan masyarakat untuk menyampaikan aspirasi, keluhan, dan saran. Anda bisa menghubungi kami melalui tatap muka, SP4N Lapor, surat korespondensi, dan WhatsApp.">
@@ -31,27 +30,21 @@
         :root {
             font-family: 'Poppins', sans-serif;
             background-color: #FAFCFF;
-        }       
-    </style>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#001A3B',
-                        secondary: '#9BDCFC',
-                        quote: '#607680',
-                        text: '#001A3B',
-                        red: '#D64045',
-                        gold: '#FFC300',
-                    },
-                    boxShadow: {
-                        'custom': '0px 0px 31.5px 4.2px rgba(155, 220, 252, 0.7)',
-                    },
-                }
-            }
         }
-    </script>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        #content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+    </style>
 </head>
 
 <body class="bg-gray-50 text-gray-900">
