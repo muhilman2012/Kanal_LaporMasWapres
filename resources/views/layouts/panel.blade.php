@@ -128,5 +128,50 @@
     <script>
         document.getElementById("currentYear").textContent = new Date().getFullYear();
     </script>
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Lapor Mas Wapres",
+    "alternateName": "Lapormaswapres",
+    "url": "https://lapormaswapres.id",
+    "logo": "https://lapormaswapres.id/assets/LaporMasWapres.webp",
+    "description": "Situs resmi milik pemerintah di bawah Sekretariat Wakil Presiden Republik Indonesia sebagai kanal awal pengaduan masyarakat. Website ini memberikan informasi dan menyediakan dua metode pengaduan: tatap muka (melalui reservasi) dan melalui WhatsApp.",
+    "sameAs": [
+        "https://www.instagram.com/setwapres.ri/",
+        "https://www.facebook.com/wapresri.go.id",
+        "https://www.youtube.com/@Setwapres"
+    ],
+    "department": {
+        "@type": "GovernmentOrganization",
+        "name": "Wakil Presiden Republik Indonesia",
+        "url": "https://wapresri.go.id"
+    },
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Layanan Pengaduan",
+        "itemListElement": [
+        {
+            "@type": "Offer",
+            "itemOffered": {
+            "@type": "Service",
+            "name": "Pengaduan Tatap Muka",
+            "description": "Registrasi melalui situs untuk membuat reservasi tatap muka dan melihat tata cara pengaduan.",
+            "url": "https://lapormaswapres.id/tatap-muka"
+            }
+        },
+        {
+            "@type": "Offer",
+            "itemOffered": {
+            "@type": "Service",
+            "name": "Pengaduan melalui WhatsApp",
+            "description": "Klik untuk langsung diarahkan ke WhatsApp resmi Lapor Mas Wapres.",
+            "url": "https://wa.me/6281117042204"
+            }
+        }
+        ]
+    }
+    }
+    </script>
 </body>
 </html>
