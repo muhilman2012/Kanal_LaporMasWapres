@@ -46,7 +46,7 @@
             background: url('/assets/images/LaporMasWapres-opacity.webp') no-repeat center center fixed;
             background-repeat: no-repeat;
             background-position: center;
-            background-size: 600px contain;
+            background-size: 400px;
         }
     </style>
 </head>
