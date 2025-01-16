@@ -1,93 +1,80 @@
-<!DOCTYPE html>  
-<html lang="id" class="scroll-smooth">  
-  
-<head>  
-    <meta charset="UTF-8" />  
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.24/dist/full.min.css" rel="stylesheet" type="text/css" />  
-    <script src="https://cdn.tailwindcss.com"></script>  
-    <link rel="preconnect" href="https://fonts.googleapis.com">  
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
-    <meta name="description" content="Lapor Mas Wapres adalah kanal pengaduan masyarakat untuk menyampaikan aspirasi, keluhan, dan saran. Anda bisa menghubungi kami melalui tatap muka, SP4N Lapor, surat korespondensi, dan WhatsApp.">  
-    <meta name="keywords" content="Lapor Mas Wapres, pengaduan masyarakat, kanal pengaduan, SP4N Lapor, tatap muka, korespondensi, WhatsApp, lapor wapres">  
-    <meta name="author" content="IT SETWAPRES">  
-    <link rel="icon" href="{{asset('/assets/images/LaporMasWapres.webp')}}" type="image/svg">  
-    <link rel="icon" href="{{ asset('/assets/images/LaporMasWapres.png')}}" type="image/png">  
-    <link rel="apple-touch-icon" href="{{ asset('/assets/images/apple-touch-icon.png')}}" type="image/png">  
-    <link rel="shortcut icon" href="{{ asset('/assets/images/favicon.ico')}}" type="image/favicon">  
-    <link href="{{ asset('/assets/css/tailwind.css') }}" rel="stylesheet" type="text/css">  
-  
-    @yield('head')  
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">  
-    <!-- Open Graph Meta Tags -->  
-    <meta property="og:description" content="Lapor Mas Wapres! adalah kanal pengaduan masyarakat untuk menyampaikan aspirasi, keluhan, dan saran melalui tatap muka, SP4N Lapor, surat korespondensi, dan WhatsApp.">  
-    <meta property="og:image" content="https://lapormaswapres.id/assets/LaporMasWapres.webp">  
-    <meta property="og:url" content="https://lapormaswapres.id/">  
-    <meta property="og:type" content="website">  
-    <meta property="og:site_name" content="Lapor Mas Wapres!">  
-  
-    <style>  
-        :root {  
-            font-family: 'Poppins', sans-serif;  
-            background-color: #FAFCFF;  
-        }         
-    </style>  
-    <script>  
-        tailwind.config = {  
-            theme: {  
-                extend: {  
-                    colors: {  
-                        primary: '#001A3B',  
-                        secondary: '#9BDCFC',  
-                        quote: '#607680',  
-                        text: '#001A3B',  
-                        red: '#D64045',  
-                        gold: '#FFC300',  
-                    },  
-                    boxShadow: {  
-                        'custom': '0px 0px 31.5px 4.2px rgba(155, 220, 252, 0.7)',  
-                    },  
-                }  
-            }  
-        }  
-    </script>  
-</head>  
-  
-<body class="bg-gray-50 text-gray-900">  
-    <!-- Preloader -->  
-    <div id="preloader" role="status" class="flex z-30 h-screen w-full bg-white-25 items-center justify-center animate-pulse">  
-        <img class="h-[36px] sm:h-[64px]"   
-             src="{{asset('/assets/images/LaporMasWapres.webp')}}"   
-             alt="Logo Lapor Mas Wapres!"   
-             srcset="  
-               {{asset('/assets/images/LaporMasWapres-36.webp')}} 36w,  
-               {{asset('/assets/images/LaporMasWapres-64.webp')}} 64w,  
-               {{asset('/assets/images/LaporMasWapres.webp')}} 128w"   
-             sizes="(max-width: 640px) 36px, 64px">  
-        <span class="sr-only">Memuat Halaman</span>  
-    </div>  
-  
-    <!-- TODO Wrapper: Setinggan breakpoint untuk responsive -->  
-    <div id="content" class="flex flex-col h-full max-w-sm p-6 gap-y-7 sm:max-w-2xl lg:max-w-5xl xl:max-w-7xl mx-auto bg-[url('/assets/images/LaporMasWapres-opacity.webp')] bg-no-repeat bg-center bg-contain bg-fixed sm:bg-[length:600px] items-center">  
-        <!-- Navbar -->  
-        <div class="flex flex-row justify-center items-center">  
-            <!-- Logo -->  
-            <a href="{{ route ('index') }}">  
-                <img class="h-[60px] sm:h-[72px]"   
-                     src="{{asset('/assets/images/LaporMasWapres.webp')}}"   
-                     alt="Logo Lapor Mas Wapres!"   
-                     srcset="  
-                       {{asset('/assets/images/LaporMasWapres-60.webp')}} 60w,  
-                       {{asset('/assets/images/LaporMasWapres-72.webp')}} 72w,  
-                       {{asset('/assets/images/LaporMasWapres.webp')}} 128w"   
-                     sizes="(max-width: 640px) 60px, 72px">  
-            </a>  
-        </div>  
-  
-        @yield('pages')  
-  
-        <!-- Footer -->  
-        <div class="flex flex-col gap-1 w-full max-w-[460px] items-center pb-7">  
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=devide-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="description" content="Lapor Mas Wapres adalah kanal pengaduan masyarakat untuk menyampaikan aspirasi, keluhan, dan saran. Anda bisa menghubungi kami melalui tatap muka, SP4N Lapor, surat korespondensi, dan WhatsApp.">
+    <meta name="keywords" content="Lapor Mas Wapres, pengaduan masyarakat, kanal pengaduan, SP4N Lapor, tatap muka, korespondensi, WhatsApp, lapor wapres">
+    <meta name="author" content="IT SETWAPRES">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{{asset('/assets/images/LaporMasWapres.webp')}}" type="image/svg">
+    <link rel="icon" href="{{ asset('/assets/images/LaporMasWapres.png')}}" type="image/png">
+    <link rel="apple-touch-icon" href="{{ asset('/assets/images/apple-touch-icon.png')}}" type="image/png">
+    <link rel="shortcut icon" href="{{ asset('/assets/images/favicon.ico')}}" type="image/favicon">
+    <link href="{{ asset('/assets/css/tailwind.css') }}" rel="stylesheet" type="text/css">
+
+    @yield('head')
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:description" content="Lapor Mas Wapres! adalah kanal pengaduan masyarakat untuk menyampaikan aspirasi, keluhan, dan saran melalui tatap muka, SP4N Lapor, surat korespondensi, dan WhatsApp.">
+    <meta property="og:image" content="https://lapormaswapres.id/assets/LaporMasWapres.webp">
+    <meta property="og:url" content="https://lapormaswapres.id/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Lapor Mas Wapres!">
+
+    <style>
+        :root {
+            font-family: 'Poppins', sans-serif;
+            background-color: #FAFCFF;
+        }       
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#001A3B',
+                        secondary: '#9BDCFC',
+                        quote: '#607680',
+                        text: '#001A3B',
+                        red: '#D64045',
+                        gold: '#FFC300',
+                    },
+                    boxShadow: {
+                        'custom': '0px 0px 31.5px 4.2px rgba(155, 220, 252, 0.7)',
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-gray-50 text-gray-900">
+    <!-- Preloader -->
+    <div id="preloader" role="status"
+        class="flex z-30 h-screen w-full bg-white-25 items-center justify-center animate-pulse">
+        <img class="h-[36px] sm:h-[64px]" src="{{asset('/assets/images/LaporMasWapres.webp')}}" alt="Logo Lapor Mas Wapres!">
+        <span class="sr-only">Memuat Halaman</span>
+    </div>
+
+    <!-- TODO Wrapper: Setinggan breakpoint untuk responsive -->
+    <div id="content" class="flex flex-col h-full max-w-sm p-6 gap-y-7 sm:max-w-2xl lg:max-w-5xl xl:max-w-7xl mx-auto bg-[url('/assets/images/LaporMasWapres-opacity.webp')] bg-no-repeat bg-center bg-contain bg-fixed sm:bg-[length:600px] items-center">
+        <!-- Navbar -->
+        <div class="flex flex-row justify-center items-center">
+            <!-- Logo -->
+            <a href="{{ route ('index') }}"><img class="h-[60px] sm:h-[72px]" src="{{asset('/assets/images/LaporMasWapres.webp')}}" alt="Logo Lapor Mas Wapres!"></a>
+        </div>
+
+        @yield('pages')
+
+        <!-- Footer -->
+        <div class="flex flex-col gap-1 w-full max-w-[460px] items-center pb-7">
+            <!-- <a href="https://wa.me/6281117042204/?text=Cek%20Status%20Laporan" target="_blank" class="w-full bg-gradient-to-r from-primary to-secondary text-white text-center font-semibold text-sm py-3 rounded-lg transform hover:scale-105 transition duration-300 hover:shadow-custom">Cek Status Pengaduan</a> -->
             <div class="flex gap-x-4 my-3">  
                 <a href="https://www.wapresri.go.id/" target="_blank">  
                     <svg class="hover:text-primary text-secondary transform transition duration-300" width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" >  
@@ -117,28 +104,29 @@
                         </defs>  
                     </svg>  
                 </a>  
-            </div>  
-            <span class="text-xs sm:text-sm text-quote text-center lg:text-left">Copyright &copy; <span id="currentYear"></span> IT Setwapres | All Rights Reserved.</span>  
-        </div>  
-  
-        <script src="{{asset('/assets/js/fslightbox.js')}}"></script>  
-        <script>  
-            window.addEventListener('load', function () {  
-                var preloader = document.getElementById('preloader');  
-                var content = document.getElementById('content');  
-                content.style.display = 'none';  
-  
-                // Sembunyikan preloader dan tampilkan konten halaman  
-                // Menambahkan delay 1000 milidetik (1 detik) sebelum menyembunyikan preloader  
-                setTimeout(function () {  
-                    // Sembunyikan preloader dan tampilkan konten halaman  
-                    preloader.style.display = 'none';  
-                    content.style.display = 'flex';  
-                }, 1000);  
-            });  
-        </script>  
-        <script>  
-            document.getElementById("currentYear").textContent = new Date().getFullYear();  
-        </script>  
+            </div>
+            <span class="text-xs sm:text-sm text-quote text-center lg:text-left">Copyright &copy; <span id="currentYear"></span> IT Setwapres | All Rights Reserved.</span>
+        </div>
+
+        <script src="{{asset('/assets/js/fslightbox.js')}}"></script>
+        <script>
+            window.addEventListener('load', function () {
+                var preloader = document.getElementById('preloader');
+                var content = document.getElementById('content');
+                content.style.display = 'none';
+
+                // Sembunyikan preloader dan tampilkan konten halaman
+                // Menambahkan delay 1000 milidetik (1 detik) sebelum menyembunyikan preloader
+                setTimeout(function () {
+                    // Sembunyikan preloader dan tampilkan konten halaman
+                    preloader.style.display = 'none';
+                    content.style.display = 'flex';
+                }, 1000);
+            });
+        </script>
+        <script>
+            document.getElementById("currentYear").textContent = new Date().getFullYear();
+        </script>
 </body>
+
 </html>
