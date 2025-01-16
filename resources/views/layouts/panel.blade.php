@@ -43,6 +43,10 @@
             align-items: center;
             justify-content: center;
             padding: 2rem;
+            background: url('/assets/images/LaporMasWapres-opacity.webp') no-repeat center center fixed;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 600px contain;
         }
     </style>
 </head>
@@ -58,7 +62,7 @@
     <!-- TODO Wrapper: Setinggan breakpoint untuk responsive -->
     <div id="content" class="flex flex-col h-full max-w-sm p-6 gap-y-7 sm:max-w-2xl lg:max-w-5xl xl:max-w-7xl mx-auto bg-[url('/assets/images/LaporMasWapres-opacity.webp')] bg-no-repeat bg-center bg-contain bg-fixed sm:bg-[length:600px] items-center">
         <!-- Navbar -->
-        <div class="flex flex-row justify-center items-center">
+        <div class="flex flex-row justify-center items-center mb-10">
             <!-- Logo -->
             <a href="{{ route ('index') }}"><img class="h-[60px] sm:h-[72px]" src="{{asset('/assets/images/LaporMasWapres.webp')}}" alt="Logo Lapor Mas Wapres!"></a>
         </div>
