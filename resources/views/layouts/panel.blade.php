@@ -107,25 +107,26 @@
             </div>
             <span class="text-xs sm:text-sm text-quote text-center lg:text-left">Copyright &copy; <span id="currentYear"></span> IT Setwapres | All Rights Reserved.</span>
         </div>
+    </div>
 
-        <script src="{{asset('/assets/js/fslightbox.js')}}"></script>
-        <script>
-            window.addEventListener('load', function () {
-                var preloader = document.getElementById('preloader');
-                var content = document.getElementById('content');
-                content.style.display = 'none';
+    <script src="{{asset('/assets/js/fslightbox.js')}}"></script>
+    <script>
+        window.addEventListener('load', function () {
+            var preloader = document.getElementById('preloader');
+            var content = document.getElementById('content');
+            content.style.display = 'none';
 
+            // Sembunyikan preloader dan tampilkan konten halaman
+            // Menambahkan delay 1000 milidetik (1 detik) sebelum menyembunyikan preloader
+            setTimeout(function () {
                 // Sembunyikan preloader dan tampilkan konten halaman
-                // Menambahkan delay 1000 milidetik (1 detik) sebelum menyembunyikan preloader
-                setTimeout(function () {
-                    // Sembunyikan preloader dan tampilkan konten halaman
-                    preloader.style.display = 'none';
-                    content.style.display = 'flex';
-                }, 1000);
-            });
-        </script>
-        <script>
-            document.getElementById("currentYear").textContent = new Date().getFullYear();
-        </script>
+                preloader.style.display = 'none';
+                content.style.display = 'flex';
+            }, 1000);
+        });
+    </script>
+    <script>
+        document.getElementById("currentYear").textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
